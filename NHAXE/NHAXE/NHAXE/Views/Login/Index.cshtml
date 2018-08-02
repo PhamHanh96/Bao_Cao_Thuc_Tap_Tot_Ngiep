@@ -1,0 +1,118 @@
+﻿
+@{
+    ViewBag.Title = "View";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@model NHAXE.Models.LoginModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+    <meta property="fb:admins" content="1373014969" />
+    <meta property="fb:app_id" content="1677748725772019" />
+    <title>Đăng nhập | PONOBus ID</title>
+
+
+    <link rel="stylesheet" id="theme-style-css" href="/Content/css/style.min.css" type="text/css" media="all" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+
+</head>
+<body style="background: #fff;">
+    <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+    <!-- Google Tag Manager -->
+    <noscript>
+        <iframe src="ns.html-id=GTM-W69S4S" tppabs="https://www.googletagmanager.com/ns.html?id=GTM-W69S4S"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'/*tpa=https://id.futabus.vn/User/gtm.js*/}) ; var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W69S4S');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Google Tag Manager -->
+
+        <div id="page">
+            <!-- header -->
+
+
+
+
+
+            <section id="body-content">
+
+
+                <div class="container" id="login-page">
+                   
+                    <div id="body-login" class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-ms-12">
+
+                            <div id="login-form-left" class="border clearfix">
+                                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-ms-12 col-lg-offset-2 col-md-offset-2">
+                                    <h3 class="text-uppercase text-center text-primary">Tôi đã đăng ký tài khoản</h3>
+                                    @using (Html.BeginForm())
+                                    {
+                                        @Html.AntiForgeryToken()
+                                        @Html.ValidationSummary(true,null,new { @class = "text-danger" })
+                                 
+                                        <div class="form-group">
+                                            <div class="form-group dn">
+                                                
+                                            <label for="">Tên đăng nhập*</label>
+                                                @Html.TextBoxFor(model => model.EMAIL_KH, new { @class = "form-control", @placeholder = "Điền email", @type = "UserName"})
+                                                @Html.ValidationMessageFor(model => model.EMAIL_KH, "", new { @class = "text-danger" })
+                                            @*<input class="form-control" data-val="true" data-val-required="Vui lòng điền email hoặc sđt" id="UserName" name="UserName" placeholder="Điền email" type="email" value="" />*@
+                                        </div>
+                                        <div class="form-group dn">
+                                            <label for="">Mật khẩu*</label>
+                                            @Html.TextBoxFor(model => model.MATKHAU, new { @class = "form-control", @placeholder = "Điền mật khẩu", @type = "Password" })
+                                            @Html.ValidationMessageFor(model => model.MATKHAU, "", new { @class = "text-danger" })
+                                            @*<input class="form-control" data-val="true" data-val-required="Vui lòng nhập mật khẩu" id="Password" name="Password" placeholder="Điền mật khẩu" type="password" />*@
+                                        </div>
+                                        <div class="form-group">
+                                            @*<a href="~/Admin/ADLogin/Index">Đăng nhập với quyền admin !</a>*@
+                                            <button class="btn btn-primary pull-right" type="submit">
+                                                Đăng nhập
+                                            </button>
+                                        </div>
+                                        </div>
+
+                                    }
+                                    
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-ms-12">
+                            <div id="login-form-right" class="border clearfix">
+                                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-ms-12 col-lg-offset-2 col-md-offset-2">
+                                    <h3 class="text-uppercase text-center text-primary">Bạn là khách hàng mới?</h3>
+                                    <p class="text-center">
+                                        <a href="/KhachHang/Create" class="btn btn-primary">Đăng ký</a>
+                                    </p>
+                                    <p class="text-muted text-center">
+                                        Chỉ với 1 tài khoản PONO BUS ID, tham gia được tất cả các chương trình của PONO Bus Lines
+                                    </p>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+</body>
+</html>
+

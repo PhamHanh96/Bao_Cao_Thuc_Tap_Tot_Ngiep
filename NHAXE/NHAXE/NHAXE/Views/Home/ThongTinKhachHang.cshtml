@@ -1,0 +1,153 @@
+﻿@model Models.Framework.THONGTINKHACHHANG
+
+@{
+    ViewBag.Title = "ThongTinKhachHang";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Info | PONOBus ID</title>
+</head>
+<body style="background: #fff;">
+
+    <div id="content-steps" class="container">
+
+        <div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-ms-12">
+                <div class="panel" style="min-height: 390px;">
+                    <p class="text-center text-primary text-uppercase">
+                        <strong style="font-size : 30px">Thông tin cá nhân</strong>
+                    </p>
+                    <form id="form-steps" name="form" ng-submit="form.$valid ? next(form.$valid): showError(form.$error)" novalidate="" class="ng-dirty ng-valid-parse ng-valid-maxlength ng-invalid ng-invalid-required ng-valid-email">
+                        
+                            
+                                <fieldset style="padding-left:50px;">
+
+                                    <div class="row">
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 col-ms-12">
+                                            <div class="form-group clearfix">
+                                                <label for="">Họ tên <span class="text-primary">*</span></label>
+                                                <div class="controls no-icon">
+                                                    @*<input style=" margin-left : 25px" ng-model="info.CustName" type="text" class="form-control ng-pristine ng-invalid ng-invalid-required ng-valid-maxlength invalid ng-touched" ng-class="(form.$submitted || form.$dirty) ? (form.CustName.$valid ? 'valid': 'invalid'): ''" name="CustName" placeholder="" required="" ng-maxlength="80" style="" value="@item.TEN_KH">*@
+                                                    <a style="margin-left : 25px">@Model.KhachHang.TEN_KH</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 col-ms-12">
+                                            <div class="form-group clearfix">
+                                                <label for="">Email <span class="text-primary">*</span></label>
+                                                <div class="controls no-icon">
+                                                    @*<input style=" margin-left : 25px" ng-model="info.CustEmail" type="email" class="form-control ng-pristine ng-untouched ng-valid-email ng-invalid ng-invalid-required invalid" ng-class="(form.$submitted || form.$dirty) ? (form.CustEmail.$valid ? 'valid': 'invalid'): ''" name="CustEmail" placeholder="" required="" value="@item.EMAIL_KH">*@
+                                                    <a style="margin-left : 25px">@Model.KhachHang.EMAIL_KH</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 col-ms-12">
+                                            <div class="form-group clearfix">
+                                                <label for="">Số chứng minh nhân dân <span class="text-primary">*</span></label>
+                                                <div class="controls no-icon">
+                                                    @*<input style=" margin-left : 25px" ng-model="info.CustMobile" type="text" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-maxlength invalid" ng-class="(form.$submitted || form.$dirty) ? (form.CustMobile.$valid ? 'valid': 'invalid'): ''" name="CustMobile" placeholder="" required="" ng-maxlength="30" vietnam-phone="" value="@item.CMND_KH">*@
+                                                    <a style="margin-left : 25px">@Model.KhachHang.CMND_KH</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 col-ms-12">
+                                            <div class="form-group clearfix">
+                                                <label for="">Di động <span class="text-primary">*</span></label>
+                                                <div class="controls no-icon">
+                                                    @*<input style=" margin-left : 25px" ng-model="info.CustMobile" type="text" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-maxlength invalid" ng-class="(form.$submitted || form.$dirty) ? (form.CustMobile.$valid ? 'valid': 'invalid'): ''" name="CustMobile" placeholder="" required="" ng-maxlength="30" vietnam-phone="" value="@item.SDT_KH">*@
+                                                    <a style="margin-left : 25px">@Model.KhachHang.SDT_KH</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 col-ms-12">
+                                            <div class="form-group clearfix">
+                                                <label for="">Địa chỉ <span class="text-primary">*</span></label>
+                                                <div class="controls no-icon">
+                                                    @*<input style=" margin-left : 25px" ng-model="info.CustMobile" type="text" class="form-control ng-pristine ng-untouched ng-invalid ng-invalid-required ng-valid-maxlength invalid" ng-class="(form.$submitted || form.$dirty) ? (form.CustMobile.$valid ? 'valid': 'invalid'): ''" name="CustMobile" placeholder="" required="" ng-maxlength="30" vietnam-phone="" value="@item.DIACHI_KH">*@
+                                                    <!--<input ng-model="info.CustCity" type="text" class="form-control" ng-class="(form.$submitted || form.$dirty) ? (form.CustCity.$valid ? 'valid': 'invalid'): ''" name="CustCity" placeholder="Enter your billing city" required ng-maxlength="80">-->
+                                                    <a style="margin-left : 25px">@Model.KhachHang.DIACHI_KH</a>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    @*<div class="form-section">
+                                        <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12 col-ms-12">
+                                            @*<a href="thanh-toan.html" class="btn btn-primary btn-flat"><i class="fa fa-arrow-left icon-flat bg-btn-actived"></i> Quay lại</a>
+                                            <a href="" class="btn btn-success  btn-flat" style="margin:auto; padding-left:12px; float:right;">Edit</a>
+
+                                        </div>
+                                    </div>*@
+                                </fieldset>
+                            
+
+                        
+                    </form>
+                </div>
+            </div>
+
+
+
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-ms-12">
+                <div class="panel" style="min-height: 390px;">
+                    <p class="text-center text-primary text-uppercase">
+                        <strong style="font-size : 20px">Đơn hàng gần đây</strong>
+                    </p>
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th>Số hóa đơn</th>
+                                <th>Mã Đơn Hàng</th>
+                                <th>Ngày mua</th>
+                                
+                            </tr>
+                        </thead>
+                        @foreach(var i in Model.ThanhToan){
+                            <tr>
+                                <td>@i.MA_TT</td>
+                                <td>@i.MA_DH</td>
+                                <td>@i.NGAYMUA</td>
+                                
+                            </tr>
+                        }
+                       
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="Content/js/SalsaCalendar.min.js"></script>
+
+
+
+</body>
+</html>
+

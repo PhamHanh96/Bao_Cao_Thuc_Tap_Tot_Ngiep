@@ -1,0 +1,74 @@
+﻿@model Models.Framework.TUYEN_DUONG
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@section header{
+   Cập nhật tuyến đường
+}
+  <div class="panel-body">
+            <div class="row">
+                <div class="col-lg-6">
+                    @using (Html.BeginForm("Edit", "ADTuyenDuong", FormMethod.Post))
+                    {
+                        @Html.AntiForgeryToken()
+
+                        <div class="form-horizontal">
+
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                            <div class="form-group an1">
+                                @Html.LabelFor(model => model.MS_TUYEN, htmlAttributes: new { @class = "control-label col-md-4" })
+                                <div class="on1"></div>
+                                @Html.TextBoxFor(model => model.MS_TUYEN, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.MS_TUYEN, "", new { @class = "text-danger" })
+
+                            </div>
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.BENDI, htmlAttributes: new { @class = "control-label col-md-4" })
+                                @Html.TextBoxFor(model => model.BENDI, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.BENDI, "", new { @class = "text-danger" })
+
+                            </div>
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.BENDEN, htmlAttributes: new { @class = "control-label col-md-4" })
+                                @Html.TextBoxFor(model => model.BENDEN, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.BENDEN, "", new { @class = "text-danger" })
+
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.QUANGDUONG, htmlAttributes: new { @class = "control-label col-md-4" })
+                                @Html.TextBoxFor(model => model.QUANGDUONG, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.QUANGDUONG, "", new { @class = "text-danger" })
+
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.THOIGIAN, htmlAttributes: new { @class = "control-label col-md-4" })
+                                @Html.TextBoxFor(model => model.THOIGIAN, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.THOIGIAN, "", new { @class = "text-danger" })
+
+                            </div>
+
+                            <div class="form-group">
+                                @Html.LabelFor(model => model.GIAVE, htmlAttributes: new { @class = "control-label col-md-4" })
+                                @Html.TextBoxFor(model => model.GIAVE, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.GIAVE, "", new { @class = "text-danger" })
+
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-offset-4 col-md-10 btnm">
+                                    <input type="submit" value="Cập nhật" class="btn btn-default" />
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+ 
+        <div>
+            @Html.ActionLink("Quay lại", "Index")
+        </div>

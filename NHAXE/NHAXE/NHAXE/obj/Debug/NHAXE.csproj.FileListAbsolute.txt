@@ -1,0 +1,781 @@
+D:\TMDT\NHAXE\NHAXE\bin\ApplicationInsights.config
+D:\TMDT\NHAXE\NHAXE\bin\roslyn\csc.exe
+D:\TMDT\NHAXE\NHAXE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\TMDT\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\TMDT\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\TMDT\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\TMDT\NHAXE\NHAXE\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\TMDT\NHAXE\NHAXE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\TMDT\NHAXE\NHAXE\bin\roslyn\System.Collections.Immutable.dll
+D:\TMDT\NHAXE\NHAXE\bin\roslyn\System.Reflection.Metadata.dll
+D:\TMDT\NHAXE\NHAXE\bin\roslyn\vbc.exe
+D:\TMDT\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe
+D:\TMDT\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe.config
+D:\TMDT\NHAXE\NHAXE\bin\NHAXE.dll.config
+D:\TMDT\NHAXE\NHAXE\bin\NHAXE.dll
+D:\TMDT\NHAXE\NHAXE\bin\NHAXE.pdb
+D:\TMDT\NHAXE\NHAXE\bin\Microsoft.AI.Agent.Intercept.dll
+D:\TMDT\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.dll
+D:\TMDT\NHAXE\NHAXE\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\TMDT\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\TMDT\NHAXE\NHAXE\bin\Microsoft.AI.Web.dll
+D:\TMDT\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.dll
+D:\TMDT\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.dll
+D:\TMDT\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\TMDT\NHAXE\NHAXE\bin\Microsoft.Web.Infrastructure.dll
+D:\TMDT\NHAXE\NHAXE\bin\System.Web.Helpers.dll
+D:\TMDT\NHAXE\NHAXE\bin\System.Web.Mvc.dll
+D:\TMDT\NHAXE\NHAXE\bin\System.Web.Razor.dll
+D:\TMDT\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.dll
+D:\TMDT\NHAXE\NHAXE\bin\System.Web.Webpages.dll
+D:\TMDT\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.dll
+D:\TMDT\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.xml
+D:\TMDT\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\TMDT\NHAXE\NHAXE\bin\Microsoft.AI.Web.xml
+D:\TMDT\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.xml
+D:\TMDT\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.xml
+D:\TMDT\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\TMDT\NHAXE\NHAXE\bin\System.Web.Razor.xml
+D:\TMDT\NHAXE\NHAXE\bin\System.Web.Webpages.xml
+D:\TMDT\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.xml
+D:\TMDT\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.xml
+D:\TMDT\NHAXE\NHAXE\bin\System.Web.Helpers.xml
+D:\TMDT\NHAXE\NHAXE\bin\System.Web.Mvc.xml
+D:\TMDT\NHAXE\NHAXE\obj\Debug\NHAXE.csprojResolveAssemblyReference.cache
+D:\TMDT\NHAXE\NHAXE\obj\Debug\NHAXE.dll
+D:\TMDT\NHAXE\NHAXE\obj\Debug\NHAXE.pdb
+D:\TMDT\NHAXE\NHAXE\bin\Models.dll
+D:\TMDT\NHAXE\NHAXE\bin\EntityFramework.dll
+D:\TMDT\NHAXE\NHAXE\bin\Models.pdb
+D:\TMDT\NHAXE\NHAXE\bin\EntityFramework.xml
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\ApplicationInsights.config
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\roslyn\csc.exe
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\roslyn\vbc.exe
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\NHAXE.dll.config
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\NHAXE.dll
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\NHAXE.pdb
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\Microsoft.AI.Web.dll
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.dll
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\Models.dll
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\System.Web.Helpers.dll
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\System.Web.Mvc.dll
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\System.Web.Razor.dll
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.dll
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\System.Web.Webpages.dll
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.dll
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\EntityFramework.dll
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\Models.pdb
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\Microsoft.AI.Web.xml
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.xml
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\System.Web.Razor.xml
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\System.Web.Webpages.xml
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.xml
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.xml
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\System.Web.Helpers.xml
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\System.Web.Mvc.xml
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\EntityFramework.xml
+C:\Users\quoct\Downloads\NHAXE\NHAXE\obj\Debug\NHAXE.csprojResolveAssemblyReference.cache
+C:\Users\quoct\Downloads\NHAXE\NHAXE\obj\Debug\NHAXE.dll
+C:\Users\quoct\Downloads\NHAXE\NHAXE\obj\Debug\NHAXE.pdb
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\EntityFramework.SqlServer.dll
+C:\Users\quoct\Downloads\NHAXE\NHAXE\bin\EntityFramework.SqlServer.xml
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\ApplicationInsights.config
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\roslyn\csc.exe
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\roslyn\vbc.exe
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\NHAXE.dll.config
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\NHAXE.dll
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\NHAXE.pdb
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\EntityFramework.dll
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\EntityFramework.SqlServer.dll
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\Microsoft.AI.Web.dll
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.dll
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\Models.dll
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\System.Web.Helpers.dll
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\System.Web.Mvc.dll
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\System.Web.Razor.dll
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.dll
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\System.Web.Webpages.dll
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.dll
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\Models.pdb
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\Models.dll.config
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\EntityFramework.xml
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\EntityFramework.SqlServer.xml
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\Microsoft.AI.Web.xml
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.xml
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\System.Web.Razor.xml
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\System.Web.Webpages.xml
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.xml
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.xml
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\System.Web.Helpers.xml
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\bin\System.Web.Mvc.xml
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\obj\Debug\NHAXE.csprojResolveAssemblyReference.cache
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\obj\Debug\NHAXE.csproj.CoreCompileInputs.cache
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\obj\Debug\NHAXE.dll
+C:\Users\onlyl\OneDrive\Desktop\N4\NHAXE\NHAXE\obj\Debug\NHAXE.pdb
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\ApplicationInsights.config
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\roslyn\csc.exe
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\roslyn\vbc.exe
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\NHAXE.dll.config
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\NHAXE.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\NHAXE.pdb
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\EntityFramework.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\EntityFramework.SqlServer.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\Microsoft.AI.Web.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\Models.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\System.Web.Helpers.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\System.Web.Mvc.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\System.Web.Razor.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\System.Web.Webpages.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\Models.pdb
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\EntityFramework.xml
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\EntityFramework.SqlServer.xml
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\Microsoft.AI.Web.xml
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.xml
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\System.Web.Razor.xml
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\System.Web.Webpages.xml
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.xml
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.xml
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\System.Web.Helpers.xml
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\System.Web.Mvc.xml
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\obj\Debug\NHAXE.csprojResolveAssemblyReference.cache
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\obj\Debug\NHAXE.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\obj\Debug\NHAXE.pdb
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\PagedList.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\PagedList.Mvc.dll
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\PagedList.xml
+C:\Users\quoct\Desktop\Thuong Mai Dien Tu\NHAXE\NHAXE\bin\PagedList.Mvc.xml
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\ApplicationInsights.config
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\roslyn\csc.exe
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\roslyn\vbc.exe
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\NHAXE.dll.config
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\NHAXE.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\NHAXE.pdb
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\EntityFramework.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\EntityFramework.SqlServer.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\Microsoft.AI.Web.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\Models.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\PagedList.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\PagedList.Mvc.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\System.Web.Helpers.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\System.Web.Mvc.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\System.Web.Razor.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\System.Web.Webpages.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\Models.pdb
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\EntityFramework.xml
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\EntityFramework.SqlServer.xml
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\Microsoft.AI.Web.xml
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\PagedList.xml
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\PagedList.Mvc.xml
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\System.Web.Razor.xml
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\System.Web.Webpages.xml
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.xml
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\System.Web.Helpers.xml
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\bin\System.Web.Mvc.xml
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\obj\Debug\NHAXE.csprojResolveAssemblyReference.cache
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\obj\Debug\NHAXE.dll
+C:\Users\Thanh Thanh\Downloads\New folder\NHAXE\NHAXE\obj\Debug\NHAXE.pdb
+E:\backup C\New folder\NHAXE\NHAXE\bin\ApplicationInsights.config
+E:\backup C\New folder\NHAXE\NHAXE\bin\roslyn\csc.exe
+E:\backup C\New folder\NHAXE\NHAXE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\backup C\New folder\NHAXE\NHAXE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\backup C\New folder\NHAXE\NHAXE\bin\roslyn\System.Collections.Immutable.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\roslyn\System.Reflection.Metadata.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\roslyn\vbc.exe
+E:\backup C\New folder\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe
+E:\backup C\New folder\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe.config
+E:\backup C\New folder\NHAXE\NHAXE\bin\NHAXE.dll.config
+E:\backup C\New folder\NHAXE\NHAXE\bin\NHAXE.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\NHAXE.pdb
+E:\backup C\New folder\NHAXE\NHAXE\bin\EntityFramework.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\EntityFramework.SqlServer.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\Microsoft.AI.Agent.Intercept.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\Microsoft.AI.Web.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\Microsoft.Web.Infrastructure.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\Models.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\PagedList.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\PagedList.Mvc.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\System.Web.Helpers.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\System.Web.Mvc.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\System.Web.Razor.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\System.Web.Webpages.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.dll
+E:\backup C\New folder\NHAXE\NHAXE\bin\Models.pdb
+E:\backup C\New folder\NHAXE\NHAXE\bin\EntityFramework.xml
+E:\backup C\New folder\NHAXE\NHAXE\bin\EntityFramework.SqlServer.xml
+E:\backup C\New folder\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.xml
+E:\backup C\New folder\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\backup C\New folder\NHAXE\NHAXE\bin\Microsoft.AI.Web.xml
+E:\backup C\New folder\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.xml
+E:\backup C\New folder\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.xml
+E:\backup C\New folder\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\backup C\New folder\NHAXE\NHAXE\bin\PagedList.xml
+E:\backup C\New folder\NHAXE\NHAXE\bin\PagedList.Mvc.xml
+E:\backup C\New folder\NHAXE\NHAXE\bin\System.Web.Razor.xml
+E:\backup C\New folder\NHAXE\NHAXE\bin\System.Web.Webpages.xml
+E:\backup C\New folder\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.xml
+E:\backup C\New folder\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.xml
+E:\backup C\New folder\NHAXE\NHAXE\bin\System.Web.Helpers.xml
+E:\backup C\New folder\NHAXE\NHAXE\bin\System.Web.Mvc.xml
+E:\backup C\New folder\NHAXE\NHAXE\obj\Debug\NHAXE.csprojResolveAssemblyReference.cache
+E:\backup C\New folder\NHAXE\NHAXE\obj\Debug\NHAXE.dll
+E:\backup C\New folder\NHAXE\NHAXE\obj\Debug\NHAXE.pdb
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\ApplicationInsights.config
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\roslyn\csc.exe
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\roslyn\vbc.exe
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\NHAXE.dll.config
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\NHAXE.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\NHAXE.pdb
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\EntityFramework.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\EntityFramework.SqlServer.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.Web.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\Models.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\PagedList.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\PagedList.Mvc.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\System.Web.Helpers.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\System.Web.Mvc.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\System.Web.Razor.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\System.Web.Webpages.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\Models.pdb
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\EntityFramework.xml
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\EntityFramework.SqlServer.xml
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.Web.xml
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.xml
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\PagedList.xml
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\PagedList.Mvc.xml
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\System.Web.Razor.xml
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\System.Web.Webpages.xml
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.xml
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.xml
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\System.Web.Helpers.xml
+C:\Users\quoct\Desktop\NHAXE\NHAXE\bin\System.Web.Mvc.xml
+C:\Users\quoct\Desktop\NHAXE\NHAXE\obj\Debug\NHAXE.csprojResolveAssemblyReference.cache
+C:\Users\quoct\Desktop\NHAXE\NHAXE\obj\Debug\NHAXE.dll
+C:\Users\quoct\Desktop\NHAXE\NHAXE\obj\Debug\NHAXE.pdb
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\ApplicationInsights.config
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\roslyn\csc.exe
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\roslyn\vbc.exe
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\NHAXE.dll.config
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\NHAXE.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\NHAXE.pdb
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\EntityFramework.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\EntityFramework.SqlServer.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.Web.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\Models.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\PagedList.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\PagedList.Mvc.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\System.Web.Helpers.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\System.Web.Mvc.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\System.Web.Razor.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\System.Web.Webpages.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\Models.pdb
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\Models.dll.config
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\EntityFramework.xml
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\EntityFramework.SqlServer.xml
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.Web.xml
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.xml
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\PagedList.xml
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\PagedList.Mvc.xml
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\System.Web.Razor.xml
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\System.Web.Webpages.xml
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.xml
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.xml
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\System.Web.Helpers.xml
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\bin\System.Web.Mvc.xml
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\obj\Debug\NHAXE.csprojResolveAssemblyReference.cache
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\obj\Debug\NHAXE.csproj.CoreCompileInputs.cache
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\obj\Debug\NHAXE.dll
+C:\Users\onlyl\OneDrive\Desktop\NHAXE\NHAXE\obj\Debug\NHAXE.pdb
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\ApplicationInsights.config
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\NHAXE.dll.config
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\NHAXE.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\NHAXE.pdb
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.Web.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\Models.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\PagedList.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\PagedList.Mvc.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\System.Web.Webpages.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\Models.pdb
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.Web.xml
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\PagedList.xml
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\PagedList.Mvc.xml
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\System.Web.Webpages.xml
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.xml
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\NHAXE\NHAXE\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\NHAXE\NHAXE\obj\Debug\NHAXE.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\NHAXE\NHAXE\obj\Debug\NHAXE.dll
+C:\Users\Admin\Desktop\NHAXE\NHAXE\obj\Debug\NHAXE.pdb
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\ApplicationInsights.config
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\roslyn\csc.exe
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\roslyn\vbc.exe
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\NHAXE.dll.config
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\NHAXE.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\NHAXE.pdb
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\EntityFramework.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\EntityFramework.SqlServer.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\Microsoft.AI.Web.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\Models.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\PagedList.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\PagedList.Mvc.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\System.Web.Helpers.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\System.Web.Mvc.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\System.Web.Razor.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\System.Web.Webpages.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\Models.pdb
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\EntityFramework.xml
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\EntityFramework.SqlServer.xml
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\Microsoft.AI.Web.xml
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.xml
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\PagedList.xml
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\PagedList.Mvc.xml
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\System.Web.Razor.xml
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\System.Web.Webpages.xml
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.xml
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.xml
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\System.Web.Helpers.xml
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\bin\System.Web.Mvc.xml
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\obj\Debug\NHAXE.csprojResolveAssemblyReference.cache
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\obj\Debug\NHAXE.dll
+C:\Users\quoct\Desktop\dieu\NHAXE\NHAXE\obj\Debug\NHAXE.pdb
+D:\NHAXE\NHAXE\bin\ApplicationInsights.config
+D:\NHAXE\NHAXE\bin\roslyn\csc.exe
+D:\NHAXE\NHAXE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\NHAXE\NHAXE\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\NHAXE\NHAXE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\NHAXE\NHAXE\bin\roslyn\System.Collections.Immutable.dll
+D:\NHAXE\NHAXE\bin\roslyn\System.Reflection.Metadata.dll
+D:\NHAXE\NHAXE\bin\roslyn\vbc.exe
+D:\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe
+D:\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe.config
+D:\NHAXE\NHAXE\bin\NHAXE.dll.config
+D:\NHAXE\NHAXE\bin\NHAXE.dll
+D:\NHAXE\NHAXE\bin\NHAXE.pdb
+D:\NHAXE\NHAXE\bin\EntityFramework.dll
+D:\NHAXE\NHAXE\bin\EntityFramework.SqlServer.dll
+D:\NHAXE\NHAXE\bin\Microsoft.AI.Agent.Intercept.dll
+D:\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.dll
+D:\NHAXE\NHAXE\bin\Microsoft.AI.PerfCounterCollector.dll
+D:\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.dll
+D:\NHAXE\NHAXE\bin\Microsoft.AI.Web.dll
+D:\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.dll
+D:\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.dll
+D:\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\NHAXE\NHAXE\bin\Microsoft.Web.Infrastructure.dll
+D:\NHAXE\NHAXE\bin\Models.dll
+D:\NHAXE\NHAXE\bin\PagedList.dll
+D:\NHAXE\NHAXE\bin\PagedList.Mvc.dll
+D:\NHAXE\NHAXE\bin\System.Web.Helpers.dll
+D:\NHAXE\NHAXE\bin\System.Web.Mvc.dll
+D:\NHAXE\NHAXE\bin\System.Web.Razor.dll
+D:\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.dll
+D:\NHAXE\NHAXE\bin\System.Web.Webpages.dll
+D:\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.dll
+D:\NHAXE\NHAXE\bin\Models.pdb
+D:\NHAXE\NHAXE\bin\EntityFramework.xml
+D:\NHAXE\NHAXE\bin\EntityFramework.SqlServer.xml
+D:\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.xml
+D:\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.xml
+D:\NHAXE\NHAXE\bin\Microsoft.AI.Web.xml
+D:\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.xml
+D:\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.xml
+D:\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\NHAXE\NHAXE\bin\PagedList.xml
+D:\NHAXE\NHAXE\bin\PagedList.Mvc.xml
+D:\NHAXE\NHAXE\bin\System.Web.Razor.xml
+D:\NHAXE\NHAXE\bin\System.Web.Webpages.xml
+D:\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.xml
+D:\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.xml
+D:\NHAXE\NHAXE\bin\System.Web.Helpers.xml
+D:\NHAXE\NHAXE\bin\System.Web.Mvc.xml
+D:\NHAXE\NHAXE\obj\Debug\NHAXE.csprojResolveAssemblyReference.cache
+D:\NHAXE\NHAXE\obj\Debug\NHAXE.dll
+D:\NHAXE\NHAXE\obj\Debug\NHAXE.pdb
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\ApplicationInsights.config
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\roslyn\csc.exe
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\roslyn\vbc.exe
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\NHAXE.dll.config
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\NHAXE.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\NHAXE.pdb
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\EntityFramework.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\EntityFramework.SqlServer.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\Microsoft.AI.Web.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\Models.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\PagedList.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\PagedList.Mvc.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\System.Web.Helpers.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\System.Web.Mvc.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\System.Web.Razor.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\System.Web.Webpages.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\Models.pdb
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\EntityFramework.xml
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\EntityFramework.SqlServer.xml
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\Microsoft.AI.Web.xml
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.xml
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\PagedList.xml
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\PagedList.Mvc.xml
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\System.Web.Razor.xml
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\System.Web.Webpages.xml
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.xml
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.xml
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\System.Web.Helpers.xml
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\System.Web.Mvc.xml
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\obj\Debug\NHAXE.dll
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\obj\Debug\NHAXE.pdb
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\bin\Models.dll.config
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\obj\Debug\NHAXE.csprojAssemblyReference.cache
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\obj\Debug\NHAXE.csproj.CoreCompileInputs.cache
+C:\Users\quoct\Desktop\NHOM6_WEBSITEDATVEXE\NHAXE\NHAXE\obj\Debug\NHAXE.csproj.CopyComplete
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\ApplicationInsights.config
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\roslyn\csc.exe
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\roslyn\System.Collections.Immutable.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\roslyn\System.Reflection.Metadata.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\roslyn\vbc.exe
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe.config
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\NHAXE.dll.config
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\NHAXE.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\NHAXE.pdb
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\EntityFramework.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\EntityFramework.SqlServer.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\Microsoft.AI.Agent.Intercept.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\Microsoft.AI.Web.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\Microsoft.Web.Infrastructure.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\Models.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\PagedList.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\PagedList.Mvc.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\System.Web.Helpers.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\System.Web.Mvc.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\System.Web.Razor.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\System.Web.Webpages.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\Models.pdb
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\Models.dll.config
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\EntityFramework.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\EntityFramework.SqlServer.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\Microsoft.AI.Web.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\PagedList.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\PagedList.Mvc.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\System.Web.Razor.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\System.Web.Webpages.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\System.Web.Helpers.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\bin\System.Web.Mvc.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\obj\Debug\NHAXE.csprojResolveAssemblyReference.cache
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\obj\Debug\NHAXE.csproj.CoreCompileInputs.cache
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\obj\Debug\NHAXE.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\Heo_Project\NHAXE\NHAXE\NHAXE\obj\Debug\NHAXE.pdb
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\ApplicationInsights.config
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\roslyn\csc.exe
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\roslyn\System.Collections.Immutable.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\roslyn\System.Reflection.Metadata.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\roslyn\vbc.exe
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\roslyn\VBCSCompiler.exe.config
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\NHAXE.dll.config
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\NHAXE.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\NHAXE.pdb
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\EntityFramework.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\EntityFramework.SqlServer.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\Microsoft.AI.Agent.Intercept.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\Microsoft.AI.Web.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\Microsoft.Web.Infrastructure.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\Models.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\PagedList.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\PagedList.Mvc.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\System.Web.Helpers.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\System.Web.Mvc.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\System.Web.Razor.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\System.Web.Webpages.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\Models.pdb
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\Models.dll.config
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\EntityFramework.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\EntityFramework.SqlServer.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\Microsoft.AI.DependencyCollector.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\Microsoft.AI.Web.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\Microsoft.AI.WindowsServer.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\Microsoft.ApplicationInsights.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\PagedList.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\PagedList.Mvc.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\System.Web.Razor.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\System.Web.Webpages.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\System.Web.Webpages.Deployment.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\System.Web.Webpages.Razor.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\System.Web.Helpers.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\bin\System.Web.Mvc.xml
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\obj\Debug\NHAXE.csprojResolveAssemblyReference.cache
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\obj\Debug\NHAXE.csproj.CoreCompileInputs.cache
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\obj\Debug\NHAXE.dll
+E:\THUC_TAP_TOT_NGHIEP\Project_Intern\PhamThiHanh_N14DCCN304_D14CQIS01\Bao_Cao_Thuc_Tap_Tot_Ngiep\NHAXE\NHAXE\NHAXE\obj\Debug\NHAXE.pdb

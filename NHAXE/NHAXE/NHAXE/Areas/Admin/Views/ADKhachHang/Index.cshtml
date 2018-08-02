@@ -1,0 +1,262 @@
+﻿
+@model List<Models.Framework.KHACH_HANG>
+<link href="~/Areas/Admin/Content/admin/css/animate.css" rel="stylesheet" />
+<script src="~/Areas/Admin/Content/admin/css/bootstrap.js"></script>
+<link href="~/Areas/Admin/Content/admin/css/imagecenter.css" rel="stylesheet" />
+<link href="~/Areas/Admin/Content/admin/css/rmodal.css" rel="stylesheet" />
+<style type="text/css">
+    .modal .modal-dialog {
+        margin-top: 200px;
+        width: 60%;
+    }
+</style>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@section header{
+    Khách Hàng
+}
+<script type="text/javascript" src="https://unpkg.com/rmodal@1.0.26/dist/rmodal.js"></script>
+<script type="text/javascript" src="~/Areas/Admin/assets/scripts/rmodal.js"></script>
+
+
+<html>
+<head>
+
+</head>
+<body>
+
+    <!-- end navbar top -->
+
+
+    <div class="box">
+        <div class="col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div class="box-header hd1">
+                        <div class="input-group-btn">
+                            <a class="btn btn-primary" href="~/Admin/ADKhachHang/Create"> Thêm mới</a>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 25%; text-align: center">
+                                            @Html.DisplayNameFor(model => model.First().TEN_KH)
+                                        </th>
+                                        <th style="width:15% ; text-align: center">
+                                            @Html.DisplayNameFor(model => model.First().EMAIL_KH)
+                                        </th>
+                                        <th style="width:10% ; text-align: center">
+                                            @Html.DisplayNameFor(model => model.First().SDT_KH)
+                                        </th>
+                                        <th style="width:10% ; text-align: center">
+                                            @Html.DisplayNameFor(model => model.First().CMND_KH)
+                                        </th>
+                                        <th style="width:15% ; text-align: center">
+                                            @Html.DisplayNameFor(model => model.First().DIACHI_KH)
+                                        </th>
+                                        <th style="width: 25%; text-align: center">
+                                            Chỉnh sửa dữ liệu
+                                        </th>
+                                    </tr>
+                                    </thead>
+                                    @foreach (var item in Model)
+                     {
+
+                    <tr id="row_@item.EMAIL_KH">
+                        <td style="text-align: center;">
+                            @Html.DisplayFor(modelItem => item.TEN_KH)
+                        </td>
+                        <td style="text-align: center;">
+                            @Html.DisplayFor(modelItem => item.EMAIL_KH)
+                        </td>
+                        <td style="text-align: center;">
+                            @Html.DisplayFor(modelItem => item.SDT_KH)
+                        </td>
+                        <td style="text-align: center;">
+                            @Html.DisplayFor(modelItem => item.CMND_KH)
+                        </td>
+                        <td style="text-align: center;">
+                            @Html.DisplayFor(modelItem => item.DIACHI_KH)
+                        </td>
+                        <td style="text-align: center">
+                            <a class="btn btn-default" href='@Url.Action("Edit", "ADKhachHang", new { eMail = @item.EMAIL_KH })' style="width:50px"><i class="fa fa-fw fa-edit" title="Sửa"></i></a>
+                            <a class="btn btn-danger btn-xs" onclick="deleteItem('@item.EMAIL_KH')" href="javascript:void(0)"><i class="fa fa-trash-o"></i></a>
+
+                            <a name="showModal" class="btn btn-primary" style="width:50px" title="Chi tiết">
+                                <i class="fa fa-fw fa-clipboard"></i>
+                                <input type="hidden" id="ten_kh" value="@item.TEN_KH" />
+                                <input type="hidden" id="email_kh" value="@item.EMAIL_KH" />
+                                <input type="hidden" id="sdt_kh" value="@item.SDT_KH" />
+                                <input type="hidden" id="cmnd_kh" value="@item.CMND_KH" />
+                                <input type="hidden" id="dc_kh" value="@item.DIACHI_KH" />
+                                <input type="hidden" id="pass_kh" value="@item.MATKHAU" />
+
+                            </a>
+                            <div id="modal" class="modal">
+                                <div class="modal-dialog animated">
+                                    <div class="modal-content">
+                                        <form class="form-horizontal" method="get">
+                                            <div class="modal-header">
+                                                <button style="width:100px; float:right;width:50px" class="btn btn-danger" onclick="modal.close();"><i class="fa fa-fw fa-remove"></i></button>
+                                                <strong>Chi tiết  <font id="nameBook"></font></strong>
+                                            </div>
+                                            <center>
+                                                <div class="modal-body">
+                                                    <div>
+                                                        <div style="float: left; margin-right:2px">
+                                                            <a style="display:none" id="URLImageBook"></a>
+                                                            <img height="280" width="275" id="imgBook" src="~/Areas/Admin/assets/img/hinhdaidien.png" />
+
+                                                        </div>
+                                                        <div>
+                                                            <table class="table table-bordered table-hover" style="width:60%">
+                                                                <tr>
+                                                                    <td>
+                                                                        <p>Tên khách hàng:</p>
+                                                                    </td>
+                                                                    <td>
+                                                                        <p><font id="textTen" /></p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <p>Email:</p>
+                                                                    </td>
+                                                                    <td>
+                                                                        <p><font id="textEmail" /></p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <p>Số điện thoại:</p>
+                                                                    </td>
+                                                                    <td>
+                                                                        <p><font id="textSdt" /></p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <p>Số CMND:</p>
+                                                                    </td>
+                                                                    <td>
+                                                                        <p><font id="textCmnd" /></p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <p>Địa chỉ:</p>
+                                                                    </td>
+                                                                    <td>
+                                                                        <p><font id="textDc" /></p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <p>Mật khẩu:</p>
+                                                                    </td>
+                                                                    <td>
+                                                                        <p><font id="textMk" /></p>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                            <div class="modal-footer">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+
+                    </tr>
+}
+                            </table>
+                        </div>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script language="javascript">
+        window.onload = function () {
+            var modal = new RModal(document.getElementById('modal'), {
+                //content: 'Abracadabra'
+                beforeOpen: function (next) {
+                    console.log('beforeOpen');
+                    next();
+                }
+                , afterOpen: function () {
+                    console.log('opened');
+                }
+
+                , beforeClose: function (next) {
+                    console.log('beforeClose');
+                    next();
+                }
+                , afterClose: function () {
+                    console.log('closed');
+                }
+
+            });
+            function onSuccess(result) {
+                if (result.error) {
+                    alert(result.error);
+                } else {
+                    alert("delete succeed");
+                }
+            }
+            document.addEventListener('keydown', function (ev) {
+                modal.keydown(ev);
+            }, false);
+            $("a[name='showModal']").click(function () {
+                $('#nameBook').text($(this).find('input[type=hidden]').val());
+
+                $('#textTen').text($(this).find('input[id=ten_kh]').val());
+                $('#textEmail').text($(this).find('input[id=email_kh]').val());
+                $('#textSdt').text($(this).find('input[id=sdt_kh]').val());
+                $('#textCmnd').text($(this).find('input[id=cmnd_kh]').val());
+                $('#textDc').text($(this).find('input[id=dc_kh]').val());
+                $('#textMk').text($(this).find('input[id=pass_kh]').val());
+
+
+                modal.open();
+            });
+        }
+
+        function deleteItem(id) {
+            bootbox.confirm({
+                title: "Thông báo xóa?",
+                message: "Bạn có muốn xóa mục này không? ",
+                buttons: {
+                    cancel: {
+                        label: '<i class="fa fa-times"></i> Hủy'
+                    },
+                    confirm: {
+                        label: '<i class="fa fa-check"></i> Tiếp tục'
+                    }
+                },
+                callback: function (result) {
+                    if (result == true) {
+                        $.post('/Admin/ADKhachHang/Delete', { id: id }, function (data) {
+                            if (data.success == 1) {
+                                alert('Xóa thành công!');
+                                $('#row_' + id).remove();
+                            } else { alert('Xóa thất bại!'); }
+                        })
+                    }
+                }
+            });
+        }
+        </script>
+</body>
+</html>
+

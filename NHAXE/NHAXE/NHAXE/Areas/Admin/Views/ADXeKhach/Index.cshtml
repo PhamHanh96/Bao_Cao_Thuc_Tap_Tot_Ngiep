@@ -1,0 +1,117 @@
+﻿
+
+@model List<Models.Framework.XE_KHACH>
+<link href="~/Areas/Admin/Content/admin/css/animate.css" rel="stylesheet" />
+<script src="~/Areas/Admin/Content/admin/css/bootstrap.js"></script>
+<link href="~/Areas/Admin/Content/admin/css/imagecenter.css" rel="stylesheet" />
+<link href="~/Areas/Admin/Content/admin/css/rmodal.css" rel="stylesheet" />
+<style type="text/css">
+    .modal .modal-dialog {
+        margin-top: 200px;
+        width: 60%;
+    }
+</style>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@section header{
+   Xe Khách
+}
+
+
+<script type="text/javascript" src="https://unpkg.com/rmodal@1.0.26/dist/rmodal.js"></script>
+<script type="text/javascript" src="~/Areas/Admin/assets/scripts/rmodal.js"></script>
+<html>
+<head>
+
+</head>
+<body>
+    <div class="box">
+        <div class="col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div class="box-header hd1">
+                        <div class="input-group-btn">
+                            <a class="btn btn-primary" href="~/Admin/ADXeKhach/Create"> Thêm mới</a>
+                        </div>
+
+                    </div>
+                    <div class="panel-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 15%; text-align: center">
+                                            @Html.DisplayNameFor(model => model.First().MA_BSX)
+                                        </th>
+                                        <th style="width:10% ; text-align: center">
+                                            @Html.DisplayNameFor(model => model.First().SOCHO)
+                                        </th>
+
+                                        <th style="width: 25%; text-align: center">
+                                            Chỉnh sửa dữ liệu
+                                        </th>
+                                    </tr>
+                                </thead>
+                                    <tbody>
+                                    @foreach (var item in Model)
+                                {
+                                    <tr id="row_@item.MA_BSX">
+                                        <td style="text-align: center;">
+                                            @Html.DisplayFor(modelItem => item.MA_BSX)
+                                        </td>
+                                        <td style="text-align: center;">
+                                            @Html.DisplayFor(modelItem => item.SOCHO)
+                                        </td>
+
+                                        <td style="text-align: center" id="row_@item.MA_BSX">
+                                            <a class="btn btn-default" href='@Url.Action("Edit", "ADXeKhach", new { BSX = @item.MA_BSX })' style="width:50px"><i class="fa fa-fw fa-edit" title="Sửa"></i></a>
+                                            <a class="btn btn-danger btn-xs" onclick="deleteItem('@item.MA_BSX')" href="javascript:void(0)"><i class="fa fa-trash-o"></i></a>
+
+                                        </td>
+                                    </tr>
+                            }
+
+                                    </tbody>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+                <!--End Advanced Tables -->
+            </div>
+
+        </div>
+        <script language="javascript">
+
+            function deleteItem(id) {
+                bootbox.confirm({
+                    title: "Thông báo xóa?",
+                    message: "Bạn có muốn xóa mục này không? ",
+                    buttons: {
+                        cancel: {
+                            label: '<i class="fa fa-times"></i> Hủy'
+                        },
+                        confirm: {
+                            label: '<i class="fa fa-check"></i> Tiếp tục'
+                        }
+                    },
+                    callback: function (result) {
+                        if (result == true) {
+                            $.post('/Admin/ADXeKhach/Delete', { id: id }, function (data) {
+                                if (data.success == 1) {
+                                    alert('Xóa thành công!');
+                                    $('#row_' + id).remove();
+                                } else { alert('Xóa thất bại!'); }
+                            })
+                        }
+                    }
+                });
+            }
+
+
+        </script>
+</body>
+</html>
+

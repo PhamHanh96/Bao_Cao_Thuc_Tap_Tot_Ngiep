@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+ body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+div#top-nav {background: #27ae60;}
+
+img#logo {
+    width: 300px;
+}
+
+.v-tabs li.active, .v-tabs li:hover  {
+    border-bottom-color: #27ae60;
+}
+
+a, a:hover, a:focus, .text-primary {
+    color: #27ae60;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary.focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary{
+        background-color: #05c46b ;
+    border-color: #05c46b ;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+}
+
+.bg-btn-actived {
+    background-color: #27ae60;
+}
+
+h3.heading {
+    border-bottom: 2px solid #27ae60;
+    
+}
+
+.thongtin-block .thongtin-text h3 {
+    color: #27ae60;
+}
+
+.thongtin-block .thongtin-text h3:before {
+    border: solid 5px  #27ae60;
+}
+
+.br-download-v2 .describe-part p {
+    color: #e55039;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.br-download-v2 .hotline-part span {
+    color: #d63031;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.startpoint-block p span {
+    color: #d63031;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.br-header nav ul li a:hover {
+    border-bottom: 2px solid #27ae60;
+    text-decoration: none;
+}
+
+.thongtin-block .thongtin-text a {
+    float: right;
+    color: #27ae60;
+    font-style: italic;
+}
+#checkin {
+    background-color: white;
+}
+
+.bg-light-green {
+    background: #27ae60;
+}
+
+#top-nav ul li a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+
+
+#top-up {
+background:none;
+font-size: 3em;
+text-shadow:0px 0px 5px #c0c0c0;
+cursor: pointer;
+position: fixed;
+z-index: 9999;
+color:#27ae60;
+bottom: 30px;
+right: 15px;
+display: none;
+}
+
+.sprite {
+    background-image: url(../img/sprite.png);
+    display: inline-block;
+}
+
+.grid-seat .seat {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+    background-position: 0 -416px;
+    display: inline-block;
+    padding: 5px;
+}
+
+.dx {
+	padding-right: 30px;
+}
+
+
+

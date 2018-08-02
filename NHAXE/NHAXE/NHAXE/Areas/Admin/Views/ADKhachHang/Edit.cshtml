@@ -1,0 +1,83 @@
+﻿@model Models.Framework.KHACH_HANG
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@section header{
+    Cập nhật Khách Hàng
+}
+<div class="panel-body">
+    <div class="row">
+        <div class="col-lg-12">
+            @using (Html.BeginForm("Edit", "ADKhachHang", FormMethod.Post))
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-horizontal">
+
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    
+                    <div class="form-group an1">
+                        @Html.LabelFor(model => model.EMAIL_KH, htmlAttributes: new { @class = "control-label col-md-4" })
+                        <div class="on1"></div>
+                        @Html.TextBoxFor(model => model.EMAIL_KH, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.EMAIL_KH, "", new { @class = "text-danger" })
+
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.TEN_KH, htmlAttributes: new { @class = "control-label col-md-4" })
+                        @Html.TextBoxFor(model => model.TEN_KH, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.TEN_KH, "", new { @class = "text-danger" })
+
+                    </div>
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.SDT_KH, htmlAttributes: new { @class = "control-label col-md-4" })
+                        @Html.TextBoxFor(model => model.SDT_KH, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.SDT_KH, "", new { @class = "text-danger" })
+
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.CMND_KH, htmlAttributes: new { @class = "control-label col-md-4" })
+                        @Html.TextBoxFor(model => model.CMND_KH, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.CMND_KH, "", new { @class = "text-danger" })
+
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.DIACHI_KH, htmlAttributes: new { @class = "control-label col-md-4" })
+                        @Html.TextBoxFor(model => model.DIACHI_KH, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.DIACHI_KH, "", new { @class = "text-danger" })
+
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.MATKHAU, htmlAttributes: new { @class = "control-label col-md-4" })
+                        @Html.PasswordFor(model => model.MATKHAU, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.MATKHAU, "", new { @class = "text-danger" })
+
+                    </div>
+
+                    <div class="form-group">
+                        @Html.LabelFor(model => model.CONFIRM_PASS, htmlAttributes: new { @class = "control-label col-md-4" })
+                        @Html.PasswordFor(model => model.CONFIRM_PASS, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.CONFIRM_PASS, "", new { @class = "text-danger" })
+
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-md-offset-4 col-md-10 btnm">
+                            <input type="submit" value="Cập nhật" class="btn btn-default" />
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<div>
+    @Html.ActionLink("Quay lại", "Index")
+</div>

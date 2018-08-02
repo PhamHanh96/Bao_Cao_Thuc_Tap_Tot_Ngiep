@@ -1,0 +1,44 @@
+﻿@model Models.Framework.XE_KHACH
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@section header{
+    Thêm xe khách
+    }
+
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal" style="margin-top: 50px;" >
+
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(model => model.MA_BSX, htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.MA_BSX, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.MA_BSX, "", new { @class = "text-danger" })
+            </div>
+        </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.SOCHO, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <div class="col-md-10">
+                        @Html.EditorFor(model => model.SOCHO, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.SOCHO, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10 btnm">
+                        <input type="submit" value="Thêm" class="btn btn-default" />
+                    </div>
+                </div>
+            </div>
+            }
+
+            <div style="margin-top: 222px;">
+                @Html.ActionLink("Quay lại", "Index")
+            </div>

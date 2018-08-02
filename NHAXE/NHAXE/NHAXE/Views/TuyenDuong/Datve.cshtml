@@ -1,0 +1,153 @@
+﻿@model  Models.Framework.THONGTINDATVE
+@{
+    ViewBag.Title = "View";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+
+    <title>Giá vé PONO| Mua vé</title>
+
+</head>
+<body style="background: #fff;">
+
+    <section id="body-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-ms-12">
+                    <div style="height: 272px;
+    border-radius: 5px;border: 1px solid #ddd;height: 315px;">
+                        <!-- Nav tabs -->
+                        <div class="text-center text-uppercase text-primary" style="margin-bottom: 25px;">
+                            <strong>Mua vé trực tuyến</strong>
+                        </div>
+
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="booking" style="border: none;">
+                                <form class="form" name="bookingPartialForm">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                            <div class="form-group">
+                                                <label for="">Điểm khởi hành</label>
+                                                <div class="controls">
+                                                    <i class="fa fa-bus text-primary"></i>
+                                                    <input type="text" class="form-control" value="@Model.TD[0].BENDI" />
+                                                    
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                            <div class="form-group">
+                                                <label for="">Điểm đến</label>
+                                                <div class="controls">
+                                                    <i class="fa fa-bus text-primary"></i>
+
+                                                    <input type="text" class="form-control" value=" @Model.TD[0].BENDEN"/>
+                                                   
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                            <div class="form-group">
+                                                <label for="">Ngày khởi hành</label>
+                                                <div class="controls">
+                                                    <i class="fa fa-clock-o text-primary"></i>
+                                                    <input type="text" class="form-control" value= "@Model.LT[0].NGAYDI" />
+                                                   
+
+                                                    <small><em>Định dạng: mm-dd-yyyy</em></small>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                            <div class="form-group">
+                                                <label for="">Số lượng vé</label>
+                                                @{ var tongtien = Model.TD[0].GIAVE;}
+                                                <input type="number" id="price" value="@tongtien" disabled/>
+                                                <div class="controls">
+                                                    <i class="fa fa-ticket text-primary"></i>
+                                                    <input type="number" id="numberOfTicket" name="numOfTicket" placeholder="1" value="1" class="form-control" min="1" max="10" onchange="tinhtongtien();"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-7 col-md-7 col-sm-6 col-xs-6 col-ms-12">
+
+                                            <strong>Tổng tiền:</strong>
+                                           
+                                            <input type="number" value=""  name="tongtien" id="tongtien" disabled/>  
+                                          
+
+                                        </div>
+                                        <div class="col-lg-5 col-md-5 col-sm-6 col-xs-6 col-ms-12">
+                                            <a href="thanh-toan.html" class="btn btn-primary btn-block btn-flat btn-booking"><i class="fa fa-ticket icon-flat bg-btn-actived"></i>Mua vé</a>
+                                        </div>
+
+
+                                        <!-- /.col-lg-7 -->
+
+
+
+                                    </div>
+                                </form>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="profile">
+
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-ms-12">
+                    <div class="panel" style="border: 1px solid #ddd;height: 315px;">
+                        <p class="text-center text-uppercase text-primary">
+                            <strong>Điều khoản &amp; Lưu ý</strong>
+                        </p>
+                        <div style="padding: 20px;">
+                            <p class="text-justify">(*) Quý khách vui lòng mang email có chứa mã vé đến văn phòng để đổi vé lên xe trước giờ xuất bến ít nhất <strong class="text-primary">60 phút</strong> để chúng tôi trung chuyển.</p>
+                            <p class="text-justify">(*) Thông tin hành khách phải chính xác, nếu không sẽ không thể lên xe hoặc hủy/đổi vé</p>
+                            <p class="text-justify">(*) Quý khách không được đổi / trả vé vào các ngày Lễ Tết ( ngày thường qúy khách được quyền chuyển đổi hoặc hủy vé <strong class="text-primary">một lần</strong> duy nhất trước giờ xe chạy 24 giờ), phí hủy vé 10%. </p>
+                            <p class="text-justify">
+                                (*) Nếu quý khách có nhu cầu trung chuyển, vui lòng liên hệ số điện thoại<br>
+                                <strong class="text-primary" style="font-size: 1.2em;">1900 8198</strong>
+                                trước khi đặt vé. Chúng tôi sẽ không đón/ trung chuyển tại những điểm xe trung chuyển không thể tới được.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <script>
+        function tinhtongtien() {
+            var giave = document.getElementById("price").value;
+            var ticket = document.getElementById("numberOfTicket").value;
+           document.getElementById("tongtien").value = giave* ticket;
+        }
+    </script>
+</body>
+
+
+
+</html>

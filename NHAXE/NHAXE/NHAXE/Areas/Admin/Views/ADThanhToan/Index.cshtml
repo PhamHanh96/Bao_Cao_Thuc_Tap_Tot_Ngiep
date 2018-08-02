@@ -1,0 +1,204 @@
+﻿
+@model List<Models.Framework.THANH_TOAN>
+<link href="~/Areas/Admin/Content/admin/css/animate.css" rel="stylesheet" />
+<script src="~/Areas/Admin/Content/admin/css/bootstrap.js"></script>
+<link href="~/Areas/Admin/Content/admin/css/imagecenter.css" rel="stylesheet" />
+<link href="~/Areas/Admin/Content/admin/css/rmodal.css" rel="stylesheet" />
+<style type="text/css">
+    .modal .modal-dialog {
+        margin-top: 200px;
+        width: 60%;
+    }
+</style>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+@section header{
+    Thanh Toán
+}
+
+
+<script type="text/javascript" src="https://unpkg.com/rmodal@1.0.26/dist/rmodal.js"></script>
+<script type="text/javascript" src="~/Areas/Admin/assets/scripts/rmodal.js"></script>
+<html>
+<head>
+
+</head>
+<body>
+    <div class="box">
+        <div class="col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <div class="panel-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+                                <thead>
+                                    <tr>
+                                        <th style="width: 15%; text-align: center">
+                                            Mã Thanh Toán
+                                        </th>
+                                        <th style="width:10% ; text-align: center">
+                                            Mã đơn Hàng
+                                        </th>
+                                        <th style="width:10% ; text-align: center">
+                                            Email khách Hàng
+                                        </th>
+                                        <th style="width:15% ; text-align: center">
+                                            Ngày mua
+                                        </th>
+
+                                        <th style="width: 25%; text-align: center">
+                                            Chỉnh sửa dữ liệu
+                                        </th>
+                                    </tr>
+                                </thead>
+                                @foreach (var item in Model)
+            {
+                    <tr>
+                        <td style="text-align: center;">
+                            @Html.DisplayFor(modelItem => item.MA_TT)
+                        </td>
+                        <td style="text-align: center;">
+                            @Html.DisplayFor(modelItem => item.MA_DH)
+                        </td>
+                        <td style="text-align: center;">
+                            @Html.DisplayFor(modelItem => item.EMAIL)
+                        </td>
+                        <td style="text-align: center;">
+                            @Html.DisplayFor(modelItem => item.NGAYMUA)
+                        </td>
+
+                        <td style="text-align: center" id="row_@item.MA_TT">
+
+
+                            <a name="showModal" class="btn btn-primary" style="width:50px" title="Chi tiết">
+                                <i class="fa fa-fw fa-clipboard"></i>
+                                <input type="hidden" id="abc" value="@item.MA_TT" />
+                                <input type="hidden" id="abcd" value="@item.MA_DH" />
+                                <input type="hidden" id="abcde" value="@item.EMAIL" />
+                                <input type="hidden" id="abcdef" value="@item.NGAYMUA" />
+
+                            </a>
+                            <div id="modal" class="modal">
+                                <div class="modal-dialog animated">
+                                    <div class="modal-content">
+                                        <form class="form-horizontal" method="get">
+                                            <div class="modal-header">
+                                                <button style="width:100px; float:right;width:50px" class="btn btn-danger" onclick="modal.close();"><i class="fa fa-fw fa-remove"></i></button>
+                                                <strong>Chi tiết  <font id="nameBook"></font></strong>
+                                            </div>
+                                            <center>
+                                                <div class="modal-body">
+                                                    <div>
+                                                        <div style="float: left; margin-right:2px">
+                                                            <a style="display:none" id="URLImageBook"></a>
+                                                            <img height="280" width="275" id="imgBook" src="~/Areas/Admin/assets/img/xe.jpg" />
+
+                                                        </div>
+                                                        <div>
+                                                            <table class="table table-bordered table-hover" style="width:60%">
+                                                                <tr>
+                                                                    <td>
+                                                                        <p>Mã thanh toán:</p>
+                                                                    </td>
+                                                                    <td>
+                                                                        <p><font id="textAT" /></p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <p>Mã đơn hàng:</p>
+                                                                    </td>
+                                                                    <td>
+                                                                        <p><font id="textCT" /></p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <p>Emai:</p>
+                                                                    </td>
+                                                                    <td>
+                                                                        <p><font id="textPLS" /></p>
+                                                                    </td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td>
+                                                                        <p>Ngày thanh toán :</p>
+                                                                    </td>
+                                                                    <td>
+                                                                        <p><font id="textPLSF" /></p>
+                                                                    </td>
+                                                                </tr>
+
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </center>
+                                            <div class="modal-footer">
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+}
+                            </table>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+
+                        <script language="javascript">
+                            window.onload = function () {
+                                var modal = new RModal(document.getElementById('modal'), {
+                                    //content: 'Abracadabra'
+                                    beforeOpen: function (next) {
+                                        console.log('beforeOpen');
+                                        next();
+                                    }
+                                    , afterOpen: function () {
+                                        console.log('opened');
+                                    }
+
+                                    , beforeClose: function (next) {
+                                        console.log('beforeClose');
+                                        next();
+                                    }
+                                    , afterClose: function () {
+                                        console.log('closed');
+                                    }
+
+                                });
+                                function onSuccess(result) {
+                                    if (result.error) {
+                                        alert(result.error);
+                                    } else {
+                                        alert("delete succeed");
+                                    }
+                                }
+
+                                document.addEventListener('keydown', function (ev) {
+                                    modal.keydown(ev);
+                                }, false);
+                                $("a[name='showModal']").click(function () {
+                                    $('#nameBook').text($(this).find('input[type=hidden]').val());
+                                    $('#textAT').text($(this).find('input[id=abc]').val());
+                                    $('#textCT').text($(this).find('input[id=abcd]').val());
+                                    $('#textPLS').text($(this).find('input[id=abcde]').val());
+                                    $('#textPLSF').text($(this).find('input[id=abcdef]').val());
+
+                                    modal.open();
+                                });
+
+                            }
+                        </script>
+</body>
+</html>
+

@@ -1,0 +1,166 @@
+﻿@model Models.Framework.THONGTINDATVE
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+    <meta property="fb:admins" content="1373014969" />
+    <meta property="fb:app_id" content="1677748725772019" />
+    <title>Đặt vé| PONOBus ID</title>
+
+
+    <link rel="stylesheet" id="theme-style-css" href="/Content/css/style.min.css" type="text/css" media="all" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+
+</head>
+<body style="background: #fff;">
+
+    <section id="body-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-ms-12">
+                    <div style="border-radius: 5px;border: 1px solid #ddd;height: 370px;">
+                        <!-- Nav tabs -->
+                        <div class="text-center text-uppercase text-primary" style="margin-bottom: 25px;">
+                            <strong>Mua vé trực tuyến</strong>
+                        </div>
+                        @using (Html.BeginForm("Datve", "DatVe", FormMethod.Post))
+                        {@Html.AntiForgeryToken()
+
+                            <div class="form-horizontal">
+
+                                @Html.ValidationSummary(true, "", new { @class = "text-danger err" })
+                                <div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-10">
+                                        <div class="form-group form-new">
+                                            <label for="">Mã Lộ trình*</label>
+
+                                            <div class="col-md-20  mlt">
+
+                                                @Html.TextBoxFor(model => model.LT[0].MA_LT, new { htmlAttributes = new { @class = "form-control", id = "soluong" } })
+                                                @Html.ValidationMessageFor(model => model.LT[0].MA_LT, "", new { @class = "text-danger" })
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-10">
+
+                                    <div class="form-group form-new">
+                                        <label for="">Điểm khởi hành</label>
+                                        <div class="controls">
+                                            <i class="fa fa-bus text-primary icon1"></i>
+                                            @Html.TextBoxFor(model => model.TD[0].BENDI, new { htmlAttributes = new { @class = "form-control", id = "soluong" } })
+                                            @Html.ValidationMessageFor(model => model.TD[0].BENDI, "", new { @class = "text-danger" })
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-10">
+                                    <div class="form-group form-new">
+                                        <label for="">Điểm đến</label>
+                                        <div class="controls">
+                                            <i class="fa fa-bus text-primary icon2"></i>
+                                            @Html.TextBoxFor(model => model.TD[0].BENDEN, new { htmlAttributes = new { @class = "form-control", id = "soluong" } })
+                                            @Html.ValidationMessageFor(model => model.TD[0].BENDEN, "", new { @class = "text-danger" })
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                    <div class="form-group form-new">
+                                        <label for="">Ngày khởi hành</label>
+                                        <div class="controls">
+                                            <i class="fa fa-clock-o text-primary icon3"></i>
+                                            @Html.TextBoxFor(model => model.LT[0].NGAYDI, new { htmlAttributes = new { @class = "form-control", id = "soluong" } })
+                                            @Html.ValidationMessageFor(model => model.LT[0].NGAYDI, "", new { @class = "text-danger" })
+                                            <br />
+                                            <small><em>Định dạng: mm-dd-yyyy</em></small>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                    <div class="form-group form-new">
+                                        <label for="">Giá vé*</label>
+
+                                        <div class="col-md-10">
+
+                                            @Html.TextBoxFor(model => model.TD[0].GIAVE, new { htmlAttributes = new { @class = "form-control", id = "soluong" } })
+                                            @Html.ValidationMessageFor(model => model.TD[0].GIAVE, "", new { @class = "text-danger" })
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                                    <div class="form-group form-new">
+                                        <label for="">Số lượng*</label>
+                                        <div class="col-md-10">
+
+                                            @Html.TextBoxFor(model => model.soluong, new { htmlAttributes = new { @class = "form-control", id = "soluong" } })
+                                            @Html.ValidationMessageFor(model => model.soluong, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group edit-btn">
+
+                                    <button class="btn btn-primary pull-right" type="submit" style="margin-right:255px;">
+                                        Đặt vé
+                                    </button>
+
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-ms-12">
+                    <div class="panel" style="border: 1px solid #ddd;height: 350px;">
+                        <p class="text-center text-uppercase text-primary">
+                            <strong>Điều khoản &amp; Lưu ý</strong>
+                        </p>
+                        <div style="padding: 20px;">
+                            <p class="text-justify">(*) Quý khách vui lòng mang email có chứa mã vé đến văn phòng để đổi vé lên xe trước giờ xuất bến ít nhất <strong class="text-primary">60 phút</strong> để chúng tôi trung chuyển.</p>
+                            <p class="text-justify">(*) Thông tin hành khách phải chính xác, nếu không sẽ không thể lên xe hoặc hủy/đổi vé</p>
+                            <p class="text-justify">(*) Quý khách không được đổi / trả vé </p>
+                            <p class="text-justify">
+                                (*) Nếu quý khách có nhu cầu trung chuyển, vui lòng liên hệ số điện thoại<br>
+                                <strong class="text-primary" style="font-size: 1.2em;">1900 8198</strong>
+                                trước khi đặt vé. Chúng tôi sẽ không đón/ trung chuyển tại những điểm xe trung chuyển không thể tới được.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <div>
+        
+    </div>
+    <script>
+                            function tinhtongtien() {
+                                var giave = @Model.TD[0].GIAVE;
+                                var ticket = document.getElementById("soluong").value;
+                                document.getElementById("tongtien").value = giave* ticket;
+                                return giave * ticket;
+                            }
+    </script>
+</body>
+</html>

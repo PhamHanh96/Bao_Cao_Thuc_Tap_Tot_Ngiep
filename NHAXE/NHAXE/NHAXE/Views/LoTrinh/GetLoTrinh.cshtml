@@ -1,0 +1,127 @@
+﻿@model  List<Models.Framework.LO_TRINH>
+
+@{
+    ViewBag.Title = "View";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!DOCTYPE html>
+<html lang="vi-VN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible"
+          ="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+
+    <title>Giá vé PONO|Lịch trình</title>
+
+
+
+
+
+    <link rel="stylesheet" id="theme-style-css" href="/Content/css/style.min.css" type="text/css" media="all" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+</head>
+<body style="background: #fff;">
+    <section id="body-content">
+        <div class="container">
+            <div class="row">
+                <h3 class="text-primary text-uppercase">Lộ Trình</h3>
+
+                <div class="table-responsive">
+                   
+                    <table class="table ">
+                        <div>
+                            <thead>
+                                <tr class="text-white bg-light-green">
+                                    
+                                    <th style="text-align:center" data-toggle="true">Mã Lộ Trình</th>
+                                    <th style="text-align:center">Mã Tuyến</th>
+                                    <th style="text-align:center">Bảng Số Xe</th>
+                                    <th style="text-align:center" data-hide="phone">Ngày đi</th>
+                                    <th style="text-align:center" data-hide="phone">Giờ Khởi Hành</th>
+                                    <th style="text-align:center" data-hide="phone">Số Ghế Trống</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+
+                        </div>
+                         <tbody>
+                        @foreach (var item in Model)
+                        {
+                          
+                                <tr class="route-row1342">
+                                    <td style="text-align:center">@item.MA_LT </td>
+                                    <td style="text-align:center"> @item.MS_TUYEN</td>
+                                    <td style="text-align:center">@item.BSXE</td>
+                                    <td style="text-align:center">@item.NGAYDI</td>
+                                    <td style="text-align:center">@item.GIO</td>
+                                    <td style="text-align:center">@item.GHE_TRONG</td>
+                                    <td>
+                                        <a href='@Url.Action("Datve", "DatVe", new { maLT = @item.MA_LT })' class="btn br-btn-default btn-flat futa-book-ticket">
+                                            <i class="fa fa-ticket icon-flat text-primary icon-bg-default"></i>Mua vé
+                                        </a>
+                                    </td>
+                                </tr>
+
+                            }
+                        
+
+
+                    </tbody>
+                    </table>
+                </div>
+
+               
+            </div>
+
+
+
+        </div>
+
+        </div>
+
+    </section>
+
+
+    </div>
+    <!-- add slidebar menu -->
+    <div class="sb-slidebar sb-left">
+
+        <ul>
+            <li class="first text-center">
+                <a href="index.htm" tppabs="https://futabus.vn/">
+                    <img width="200" src="logo.png" tppabs="https://futabus.vn/Content/img/logo.png" alt="">
+                </a>
+            </li>
+            <li><a href="en-US.htm" tppabs="https://futabus.vn/en-US"><img src="GB.png" tppabs="https://futabus.vn/Content/res/GB.png" style="padding-bottom: 2px;" alt="English" />&nbsp;<span>English</span></a></li>
+            <li><a href="ve-xe-phuong-trang-lich-trinh.html" tppabs="https://futabus.vn/vi-VN/ve-xe-phuong-trang-lich-trinh.html">Giá vé</a></li>
+            <li><a href="cac-chuong-trinh-khuyen-mai.html" tppabs="https://futabus.vn/vi-VN/cac-chuong-trinh-khuyen-mai.html">Khuyến mãi</a></li>
+            <li><a href="ve-xe-phuong-trang-tin-tuc.html" tppabs="https://futabus.vn/vi-VN/ve-xe-phuong-trang-tin-tuc.html">Tin tức</a></li>
+            <li><a href="ve-xe-phuong-trang-lien-he.html" tppabs="https://futabus.vn/vi-VN/ve-xe-phuong-trang-lien-he.html">Liên hệ</a></li>
+
+            <li><a href="javascript:if(confirm(%27https://id.futabus.vn/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27https://id.futabus.vn/%27" tppabs="https://id.futabus.vn/">Đăng nhập</a></li>
+            <li><a href="javascript:if(confirm(%27https://id.futabus.vn/User/Register  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27https://id.futabus.vn/User/Register%27" tppabs="https://id.futabus.vn/User/Register">Đăng ký</a></li>
+
+            <li><a href="ve-xe-phuong-trang-van-chuyen-hanh-khach.html" tppabs="https://futabus.vn/vi-VN/ve-xe-phuong-trang-van-chuyen-hanh-khach.html">Dịch vụ vận chuyển hành khách</a></li>
+            <li><a href="javascript:if(confirm(%27http://www.futaexpress.vn/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://www.futaexpress.vn/%27" tppabs="http://www.futaexpress.vn/">Dịch vụ vận chuyển hàng hoá</a></li>
+            <li><a href="javascript:if(confirm(%27http://futataxi.vn/  \n\nThis file was not retrieved by Teleport Ultra, because it is addressed on a domain or path outside the boundaries set for its Starting Address.  \n\nDo you want to open it from the server?%27))window.location=%27http://futataxi.vn/%27" tppabs="http://futataxi.vn/">Dịch vụ taxi</a></li>
+            <li><a href="ve-xe-phuong-trang-tram-dung-chan.html" tppabs="https://futabus.vn/vi-VN/ve-xe-phuong-trang-tram-dung-chan.html">Dịch vụ trạm dừng</a></li>
+            <li><a href="#cd-nav" class="cd-nav-trigger-mobile">Khuyến mãi mới</a></li>
+        </ul>
+
+    </div>
+
+
+    <!-- GA Tracking -->
+    <!-- End GA Tracking -->
+
+</body>
+</html>
+

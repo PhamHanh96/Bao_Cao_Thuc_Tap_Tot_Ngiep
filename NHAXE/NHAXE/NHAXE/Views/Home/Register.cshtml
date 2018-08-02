@@ -1,0 +1,185 @@
+﻿@model Models.Framework.KHACH_HANG
+@{
+    ViewBag.Title = "View";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+    <meta property="fb:admins" content="1373014969" />
+    <meta property="fb:app_id" content="1677748725772019" />
+    <title>Đăng ký | PONOBus ID</title>
+
+    <!--[if lt IE 9]>
+     <script src="html5.js" tppabs="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" id="theme-style-css" href="/Content/css/style.min.css" type="text/css" media="all" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+
+</head>
+<body style="background: #fff;">
+    <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+    <!-- Google Tag Manager -->
+    <noscript>
+        <iframe src="ns.html-id=GTM-W69S4S" tppabs="https://www.googletagmanager.com/ns.html?id=GTM-W69S4S"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                new Date().getTime(), event: 'gtm.js'/*tpa=https://id.futabus.vn/User/gtm.js*/
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    '//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W69S4S');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+
+
+    <div id="page">
+
+
+        <section id="body-content">
+
+            <div class="container" id="login-page">
+
+                <div id="top-login" class="clearfix hidden-sm">
+
+                    <div id="login-top-bar-left" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-ms-12">
+                        <div class="row">
+                            <div class="text-center col-lg-4 col-md-4 col-sm-4 col-xs-12 col-ms-12">
+
+
+                            </div>
+                            <div class="text-center col-lg-4 col-md-4 col-sm-4 col-xs-12 col-ms-12">
+
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div id="body-register" class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-ms-12">
+                        <img src="/Content/img/xe.jpg" />
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-ms-12">
+                        <div id="register-form-wrapper" class="border padding10 clearfix">
+
+
+                            <input name="__RequestVerificationToken" type="hidden" value="6Hs4ThxYE2EQLKz0RavHTBfB9Y1Jkunyz4nFuyYyQZtN8FgCBmPGTUup2I-IA4w3EU71f9vdBiw0Uv22b-UfxZ6YCwM1" />                    <h1 class="text-uppercase">Đăng ký</h1>
+                            <p class="text-muted">
+                                <small>
+                                    Lưu ý: Không hỗ trợ hotmail và outlook email<br>
+
+                                </small>
+
+                            </p>
+
+                            
+                                @using (Html.BeginForm())
+                                {
+                                    @Html.AntiForgeryToken()
+
+                                    <div class="form-horizontal">
+
+                                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                        <div class="form-group">
+
+                                            @Html.LabelFor(model => model.TEN_KH, htmlAttributes: new { @class = "control-label col-md-2" })
+
+                                            <div class="col-md-10">
+
+                                                @Html.TextBoxFor(model => model.TEN_KH, new { htmlAttributes = new { @class = "form-control" } })
+
+
+                                                @Html.ValidationMessageFor(model => model.TEN_KH, "", new { @class = "text-danger" })
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            @Html.LabelFor(model => model.EMAIL_KH, htmlAttributes: new { @class = "control-label col-md-2" })
+                                            <div class="col-md-10">
+
+                                                @Html.TextBoxFor(model => model.EMAIL_KH, new { htmlAttributes = new { @class = "form-control" } })
+
+
+                                                @Html.ValidationMessageFor(model => model.EMAIL_KH, "", new { @class = "text-danger" })
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            @Html.LabelFor(model => model.SDT_KH, htmlAttributes: new { @class = "control-label col-md-2" })
+                                            <div class="col-md-10">
+                                                @Html.TextBoxFor(model => model.SDT_KH, new { htmlAttributes = new { @class = "form-control" } })
+
+                                                @Html.ValidationMessageFor(model => model.SDT_KH, "", new { @class = "text-danger" })
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            @Html.LabelFor(model => model.CMND_KH, htmlAttributes: new { @class = "control-label col-md-2" })
+                                            <div class="col-md-10">
+
+                                                @Html.TextBoxFor(model => model.CMND_KH, new { htmlAttributes = new { @class = "form-control" } })
+
+
+                                                @Html.ValidationMessageFor(model => model.CMND_KH, "", new { @class = "text-danger" })
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            @Html.LabelFor(model => model.DIACHI_KH, htmlAttributes: new { @class = "control-label col-md-2" })
+                                            <div class="col-md-10">
+
+                                                @Html.TextBoxFor(model => model.DIACHI_KH, new { htmlAttributes = new { @class = "form-control" } })
+
+
+                                                @Html.ValidationMessageFor(model => model.DIACHI_KH, "", new { @class = "text-danger" })
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            @Html.LabelFor(model => model.MATKHAU, htmlAttributes: new { @class = "control-label col-md-2" })
+                                            <div class="col-md-10">
+                                                @Html.TextBoxFor(model => model.MATKHAU, new { htmlAttributes = new { @class = "form-control", @type = "Password" } })                                                    @Html.ValidationMessageFor(model => model.MATKHAU, "", new { @class = "text-danger" })
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <div class="col-md-offset-2 col-md-10">
+                                                <input type="submit" value="Create" class="btn btn-default" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+
+                                <div>
+                                    @Html.ActionLink("Back to List", "Index")
+                                </div>
+
+                        </div>
+                    </div>
+                   </div>
+                    </div>
+            </section>
+        </div>
+</body>
+</html>

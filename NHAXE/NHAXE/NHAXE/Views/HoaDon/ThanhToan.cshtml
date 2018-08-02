@@ -1,0 +1,183 @@
+﻿@model Models.Framework.THONGTINTHANHTOAN
+
+@{
+    ViewBag.Title = "ThanhToan";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+    <meta property="fb:admins" content="1373014969" />
+    <meta property="fb:app_id" content="1677748725772019" />
+    <title>Đặt vé| PONOBus ID</title>
+
+
+    <link rel="stylesheet" id="theme-style-css" href="/Content/css/style.min.css" type="text/css" media="all" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+
+</head>
+<body style="background: #fff;">
+
+    <section id="body-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-ms-12">
+                    <div style="border-radius: 5px;border: 1px solid #ddd;height: 370px;">
+                        <!-- Nav tabs -->
+                        <div class="text-center text-uppercase text-primary" style="margin-bottom: 25px; margin-top:10px;">
+                            <strong>THÔNG TIN THANH TOÁN</strong>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-10">
+
+                            <div class="form-group form-new">
+                                <label for="">Mã tuyến</label>
+                                <div class="controls an1">
+                                    <div class="on1"></div>
+                                    <i class="fa fa-bus text-primary icon1"></i>
+                                    @Html.TextBoxFor(model => model.TD.MS_TUYEN, new { htmlAttributes = new { @class = "form-control", id = "soluong" } })
+                                    @Html.ValidationMessageFor(model => model.TD.MS_TUYEN, "", new { @class = "text-danger" })
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-10">
+                            <div class="form-group form-new">
+                                <label for="">Tên Khách Hàng</label>
+                                <div class="controls an1">
+                                    <div class="on1"></div>
+                                    <i class="fa fa-bus text-primary icon2"></i>
+                                    @Html.TextBoxFor(model => model.KhachHang.TEN_KH, new { htmlAttributes = new { @class = "form-control", id = "soluong" } })
+                                    @Html.ValidationMessageFor(model => model.KhachHang.TEN_KH, "", new { @class = "text-danger" })
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-10">
+                            <div class="form-group form-new">
+                                <label for="">Email Khách Hàng</label>
+                                <div class="controls an1">
+                                    <div class="on1"></div>
+                                    <i class="fa fa-bus text-primary icon2"></i>
+                                    @Html.TextBoxFor(model => model.KhachHang.EMAIL_KH, new { htmlAttributes = new { @class = "form-control", id = "soluong" } })
+                                    @Html.ValidationMessageFor(model => model.KhachHang.EMAIL_KH, "", new { @class = "text-danger" })
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                            <div class="form-group form-new">
+                                <label for="">Ngày khởi Hành</label>
+                                <div class="controls an1">
+                                    <div class="on1"></div>
+                                    <i class="fa fa-clock-o text-primary icon3"></i>
+                                    @Html.TextBoxFor(model => model.LT.NGAYDI, new { htmlAttributes = new { @class = "form-control", id = "soluong" } })
+                                    @Html.ValidationMessageFor(model => model.LT.NGAYDI, "", new { @class = "text-danger" })
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                            <div class="form-group form-new">
+                                <label for="">Giờ Khởi Hành</label>
+                                <div class="controls an1">
+                                    <div class="on1"></div>
+                                    <i class="fa fa-clock-o text-primary icon3"></i>
+                                    @Html.TextBoxFor(model => model.LT.GIO, new { htmlAttributes = new { @class = "form-control", id = "soluong" } })
+                                    @Html.ValidationMessageFor(model => model.LT.GIO, "", new { @class = "text-danger" })
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 col-ms-12">
+                            <div class="form-group form-new">
+                                <label for="">Số lượng vé*</label>
+
+                                <div class="col-md-10 an1">
+                                    <div class="on1"></div>
+                                    @Html.TextBoxFor(model => model.DonHang.SOLUONGVE, new { htmlAttributes = new { @class = "form-control", id = "soluong" } })
+                                    @Html.ValidationMessageFor(model => model.DonHang.SOLUONGVE, "", new { @class = "text-danger" })
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-ms-12">
+                    <div class="panel" style="border: 1px solid #ddd;height: 370px;">
+                        <p class="text-center text-uppercase text-primary" style="margin-bottom: 25px; margin-top:10px;">
+                            <strong>Hình Thức Thanh Toán</strong>
+                        </p>
+
+                        @using (Html.BeginForm("ThanhToan", "HoaDon", FormMethod.Post))
+                         {@Html.AntiForgeryToken()
+
+                            <div class="form-horizontal">
+
+                                @Html.ValidationSummary(true, "", new { @class = "text-danger err" })
+                                    <div class="form-group fn1">
+                                       
+                                        <div class="col-lg-5">
+                                            <label for="" style="margin-left: 35px;">Mã Đơn Hàng*</label>
+                                        </div>
+                                        <div class="col-lg-7 mlt an1">
+                                            <div class="on2"></div>
+                                            @Html.TextBoxFor(model => model.DonHang.MA_DH, new { htmlAttributes = new { @class = "form-control" } })
+                                            @Html.ValidationMessageFor(model => model.DonHang.MA_DH, "", new { @class = "text-danger" })
+                                        </div>
+                                    </div>
+                            </div>
+                            <div class="form-group fn1">
+                                <div class="col-lg-5">
+                                    <label for="">Tổng tiền*</label>
+                                </div>
+                                <div class="col-lg-7 an1">
+                                    <div class="on2"></div>
+                                    @Html.TextBoxFor(model => model.DonHang.TONG, new { htmlAttributes = new { @class = "form-control", id = "soluong" } })
+                                    @Html.ValidationMessageFor(model => model.DonHang.TONG, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="form-group fn1">
+                                <div class="col-lg-5">
+                                    <label for="">Số tài khoản*</label>
+                                </div>
+                                <div class="col-lg-7">
+                                    @Html.TextBoxFor(model => model.SoTaiKhoan, new { htmlAttributes = new { @class = "form-control", id = "soluong" } })
+                                    @Html.ValidationMessageFor(model => model.SoTaiKhoan, "", new { @class = "text-danger" })
+                                </div>
+                            </div>
+                            <div class="form-group form-new">
+                                <button class="btn btn-primary pull-right" type="submit" style="margin: 12px 80px 20px 10px ;">
+                                    Thực Hiện Thanh Toán
+                                </button>
+                            </div>
+
+
+                        }
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div>
+        @Html.ActionLink("Quay lại", "Index")
+    </div>
+   
+</body>
+</html>
+

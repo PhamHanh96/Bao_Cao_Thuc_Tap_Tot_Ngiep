@@ -1,0 +1,61 @@
+﻿@model NHAXE.Areas.Admin.Models.ADLoginModel
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PONO ADMIN</title>
+    <link href="~/Areas/Admin/assets/plugins/bootstrap/bootstrap.css" rel="stylesheet" />
+    <link href="~/Areas/Admin/assets/font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <link href="~/Areas/Admin/assets/plugins/pace/pace-theme-big-counter.css" rel="stylesheet" />
+    <link href="~/Areas/Admin/assets/css/style.css" rel="stylesheet" />
+    <link href="~/Areas/Admin/assets/css/main-style.css" rel="stylesheet" />
+
+</head>
+
+<body class="body-Login-back">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4 text-center logo-margin ">
+                <h1 class="panel-title pn">Quản lí Nhà xe</h1>
+            </div>
+            <div class="col-md-5 col-md-offset-5 clm">
+                <div class="login-panel panel panel-default">
+                    <div class="panel-heading pnhd">
+                        <h3 class="panel-title">Mời bạn đăng nhập</h3>
+                    </div>
+                    <div class="panel-body pnbd">
+                        @using (Html.BeginForm("Login", "ADLogin", FormMethod.Post))
+                        {
+                            @Html.ValidationSummary(false, "", new { @class = "text-danger" });
+                                <fieldset>
+                                    <div class="form-group fg1">
+                                     <label class = "control-label col-md-5">Tên Đăng Nhập</label>@Html.TextBoxFor(model => model.Email, new { @class = "form-group", @autofocus = "autofocus" })    
+                                        
+                                    </div>
+                                    <div class="form-group fg1">
+                                        <label class = "control-label col-md-5">Mật Khẩu</label>  @Html.PasswordFor(model => model.Password, new { @class = "form-group" })
+                                    </div>
+                                    <!-- Change this to a button or input when using this as a form -->
+                                    <a href="~/Home/Index">Quay lại trag chủ . </a>
+                                    <button type="submit" class="btn btn-lg btn-success btn-block btndn">Đăng nhập</button>
+                                </fieldset>
+                           }
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Core Scripts - Include with every page -->
+    <script src="~/Areas/Admin/assets/plugins/jquery-1.10.2.js"></script>
+    <script src="~/Areas/Admin/assets/plugins/bootstrap/bootstrap.min.js"></script>
+    <script src="~/Areas/Admin/assets/plugins/metisMenu/jquery.metisMenu.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,257 @@
+﻿
+@{
+    ViewBag.Title = "View";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="vi-VN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+
+    <title>Giá vé PONO</title>
+
+
+
+
+
+
+    <link rel="stylesheet" id="theme-style-css" href="/Content/css/style.min.css" type="text/css" media="all" />
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+
+
+
+    <link async href="/Content/css/fontawesome-stars.css" rel="stylesheet" />
+
+    <link href="/Content/plugins/sidebar/slidebars.css" rel="stylesheet" />
+
+
+    <link rel="stylesheet" href="/Content/plugins/flexslider/flexslider.min.css" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="/Content/css/SalsaCalendar.min.css">
+
+
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap-select/css/bootstrap-select.min.css" />
+
+    <link href="/Content/css/animate.css" rel="stylesheet" />
+
+    <link href="/Content/css/custom.min.css?v=2311" rel="stylesheet" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="/Content/css/style.css">
+</head>
+<body style="background: #fff;">
+    <!-- Use for snow ( include css file) -->
+    <!-- <script>
+
+
+        dataLayer = [{
+            'ecommerce': {
+                'currencyCode': 'VND',
+                'impressions': [{"id":"27-03-2018-All-Bac Lieu ⇒ Sai Gon","name":"All-Bac Lieu ⇒ Sai Gon","list":"Lich trinh","brand":"Phương Trang","category":"Bac Lieu ⇒ Sai Gon","variant":"Giường","position":1,"price":160000},{"id":"27-03-2018-All-Bao Loc ⇒ Da Nang","name":"All-Bao Loc ⇒ Da Nang","list":"Lich trinh","brand":"Phương Trang","category":"Bao Loc ⇒ Da Nang","variant":"Giường","position":2,"price":305000},{"id":"27-03-2018-All-Bao Loc ⇒ Hue","name":"All-Bao Loc ⇒ Hue","list":"Lich trinh","brand":"Phương Trang","category":"Bao Loc ⇒ Hue","variant":"Giường","position":3,"price":370000},{"id":"27-03-2018-All-Ben Tre ⇒ Sai Gon","name":"All-Ben Tre ⇒ Sai Gon","list":"Lich trinh","brand":"Phương Trang","category":"Ben Tre ⇒ Sai Gon","variant":"Ghế","position":4,"price":70000},{"id":"27-03-2018-All-Buon Ma Thuot ⇒ BX Mien Dong","name":"All-Buon Ma Thuot ⇒ BX Mien Dong","list":"Lich trinh","brand":"Phương Trang","category":"Buon Ma Thuot ⇒ BX Mien Dong","variant":"Giường","position":5,"price":240000},{"id":"27-03-2018-All-BX An Suong ⇒ Da Lat","name":"All-BX An Suong ⇒ Da Lat","list":"Lich trinh","brand":"Phương Trang","category":"BX An Suong ⇒ Da Lat","variant":"Giường","position":6,"price":210000},{"id":"27-03-2018-All-BX Mien Dong ⇒ Buon Ma Thuot","name":"All-BX Mien Dong ⇒ Buon Ma Thuot","list":"Lich trinh","brand":"Phương Trang","category":"BX Mien Dong ⇒ Buon Ma Thuot","variant":"Giường","position":7,"price":240000},{"id":"27-03-2018-All-BX Mien Dong ⇒ BX Nha Trang","name":"All-BX Mien Dong ⇒ BX Nha Trang","list":"Lich trinh","brand":"Phương Trang","category":"BX Mien Dong ⇒ BX Nha Trang","variant":"Giường","position":8,"price":215000},{"id":"27-03-2018-All-BX Mien Dong ⇒ BXB Phan Thiet","name":"All-BX Mien Dong ⇒ BXB Phan Thiet","list":"Lich trinh","brand":"Phương Trang","category":"BX Mien Dong ⇒ BXB Phan Thiet","variant":"Giường","position":9,"price":130000},{"id":"27-03-2018-All-BX Mien Dong ⇒ Cam Ranh","name":"All-BX Mien Dong ⇒ Cam Ranh","list":"Lich trinh","brand":"Phương Trang","category":"BX Mien Dong ⇒ Cam Ranh","variant":"Giường","position":10,"price":190000},{"id":"27-03-2018-All-BX Mien Dong ⇒ Da Nang","name":"All-BX Mien Dong ⇒ Da Nang","list":"Lich trinh","brand":"Phương Trang","category":"BX Mien Dong ⇒ Da Nang","variant":"Giường","position":11,"price":360000},{"id":"27-03-2018-All-BX Mien Dong ⇒ Dak Nong","name":"All-BX Mien Dong ⇒ Dak Nong","list":"Lich trinh","brand":"Phương Trang","category":"BX Mien Dong ⇒ Dak Nong","variant":"Giường","position":12,"price":140000},{"id":"27-03-2018-All-BX Mien Dong ⇒ Hue","name":"All-BX Mien Dong ⇒ Hue","list":"Lich trinh","brand":"Phương Trang","category":"BX Mien Dong ⇒ Hue","variant":"Giường","position":13,"price":360000},{"id":"27-03-2018-All-BX Mien Dong ⇒ Ninh Hoa","name":"All-BX Mien Dong ⇒ Ninh Hoa","list":"Lich trinh","brand":"Phương Trang","category":"BX Mien Dong ⇒ Ninh Hoa","variant":"Giường","position":14,"price":215000},{"id":"27-03-2018-All-BX Mien Dong ⇒ Quang Ngai","name":"All-BX Mien Dong ⇒ Quang Ngai","list":"Lich trinh","brand":"Phương Trang","category":"BX Mien Dong ⇒ Quang Ngai","variant":"Giường","position":15,"price":300000},{"id":"27-03-2018-All-BX Mien Dong ⇒ Qui Nhon","name":"All-BX Mien Dong ⇒ Qui Nhon","list":"Lich trinh","brand":"Phương Trang","category":"BX Mien Dong ⇒ Qui Nhon","variant":"Giường","position":16,"price":250000},{"id":"27-03-2018-All-BX Mien Dong ⇒ Tuy Hoa","name":"All-BX Mien Dong ⇒ Tuy Hoa","list":"Lich trinh","brand":"Phương Trang","category":"BX Mien Dong ⇒ Tuy Hoa","variant":"Giường","position":17,"price":230000},{"id":"27-03-2018-All-De Tham ⇒ Vung Tau","name":"All-De Tham ⇒ Vung Tau","list":"Lich trinh","brand":"Phương Trang","category":"De Tham ⇒ Vung Tau","variant":"Ghế","position":18,"price":95000},{"id":"27-03-2018-All-Sai Gon ⇒ Bac Lieu","name":"All-Sai Gon ⇒ Bac Lieu","list":"Lich trinh","brand":"Phương Trang","category":"Sai Gon ⇒ Bac Lieu","variant":"Giường","position":19,"price":160000},{"id":"27-03-2018-All-Sai Gon ⇒ Ben Tre","name":"All-Sai Gon ⇒ Ben Tre","list":"Lich trinh","brand":"Phương Trang","category":"Sai Gon ⇒ Ben Tre","variant":"Ghế","position":20,"price":70000},{"id":"27-03-2018-All-Sai Gon ⇒ Ca Mau","name":"All-Sai Gon ⇒ Ca Mau","list":"Lich trinh","brand":"Phương Trang","category":"Sai Gon ⇒ Ca Mau","variant":"Giường","position":21,"price":195000},{"id":"27-03-2018-All-Sai Gon ⇒ Can Tho","name":"All-Sai Gon ⇒ Can Tho","list":"Lich trinh","brand":"Phương Trang","category":"Sai Gon ⇒ Can Tho","variant":"Giường","position":22,"price":110000},{"id":"27-03-2018-All-Sai Gon ⇒ Cao Lanh","name":"All-Sai Gon ⇒ Cao Lanh","list":"Lich trinh","brand":"Phương Trang","category":"Sai Gon ⇒ Cao Lanh","variant":"Ghế","position":23,"price":95000},{"id":"27-03-2018-All-Sai Gon ⇒ Chau Doc","name":"All-Sai Gon ⇒ Chau Doc","list":"Lich trinh","brand":"Phương Trang","category":"Sai Gon ⇒ Chau Doc","variant":"Giường","position":24,"price":140000},{"id":"27-03-2018-All-Sai Gon ⇒ Dai Ngai ⇒ Long Phu","name":"All-Sai Gon ⇒ Dai Ngai ⇒ Long Phu","list":"Lich trinh","brand":"Phương Trang","category":"Sai Gon ⇒ Dai Ngai ⇒ Long Phu","variant":"Giường","position":25,"price":140000},{"id":"27-03-2018-All-Sai Gon ⇒ Ha Tien","name":"All-Sai Gon ⇒ Ha Tien","list":"Lich trinh","brand":"Phương Trang","category":"Sai Gon ⇒ Ha Tien","variant":"Giường","position":26,"price":175000},{"id":"27-03-2018-All-Sai Gon ⇒ Hong Ngu","name":"All-Sai Gon ⇒ Hong Ngu","list":"Lich trinh","brand":"Phương Trang","category":"Sai Gon ⇒ Hong Ngu","variant":"Giường","position":27,"price":115000},{"id":"27-03-2018-All-Sai Gon ⇒ Long Xuyen","name":"All-Sai Gon ⇒ Long Xuyen","list":"Lich trinh","brand":"Phương Trang","category":"Sai Gon ⇒ Long Xuyen","variant":"Ghế","position":28,"price":125000},{"id":"27-03-2018-All-Sai Gon ⇒ Mui Ne","name":"All-Sai Gon ⇒ Mui Ne","list":"Lich trinh","brand":"Phương Trang","category":"Sai Gon ⇒ Mui Ne","variant":"Giường","position":29,"price":130000},{"id":"27-03-2018-All-Sai Gon ⇒ Nam Can","name":"All-Sai Gon ⇒ Nam Can","list":"Lich trinh","brand":"Phương Trang","category":"Sai Gon ⇒ Nam Can","variant":"Giường","position":30,"price":200000},{"id":"27-03-2018-All-Sai Gon ⇒ O Mon","name":"All-Sai Gon ⇒ O Mon","list":"Lich trinh","brand":"Phương Trang","category":"Sai Gon ⇒ O Mon","variant":"Giường/Ghế","position":31,"price":115000},{"id":"27-03-2018-All-Sai Gon ⇒ Rach Gia","name":"All-Sai Gon ⇒ Rach Gia","list":"Lich trinh","brand":"Phương Trang","category":"Sai Gon ⇒ Rach Gia","variant":"Giường","position":32,"price":150000},{"id":"27-03-2018-All-Sai Gon ⇒ Sa Dec","name":"All-Sai Gon ⇒ Sa Dec","list":"Lich trinh","brand":"Phương Trang","category":"Sai Gon ⇒ Sa Dec","variant":"Ghế","position":33,"price":95000},{"id":"27-03-2018-All-Sai Gon ⇒ Soc Trang","name":"All-Sai Gon ⇒ Soc Trang","list":"Lich trinh","brand":"Phương Trang","category":"Sai Gon ⇒ Soc Trang","variant":"Giường","position":34,"price":130000},{"id":"27-03-2018-All-Sai Gon ⇒ Tra Vinh","name":"All-Sai Gon ⇒ Tra Vinh","list":"Lich trinh","brand":"Phương Trang","category":"Sai Gon ⇒ Tra Vinh","variant":"Giường","position":35,"price":100000},{"id":"27-03-2018-All-Sai Gon ⇒ Vi Thanh","name":"All-Sai Gon ⇒ Vi Thanh","list":"Lich trinh","brand":"Phương Trang","category":"Sai Gon ⇒ Vi Thanh","variant":"Giường","position":36,"price":135000},{"id":"27-03-2018-All-Sai Gon ⇒ Vinh Long","name":"All-Sai Gon ⇒ Vinh Long","list":"Lich trinh","brand":"Phương Trang","category":"Sai Gon ⇒ Vinh Long","variant":"Ghế","position":37,"price":105000},{"id":"27-03-2018-All-BX Nha Trang ⇒ BX Mien Dong","name":"All-BX Nha Trang ⇒ BX Mien Dong","list":"Lich trinh","brand":"Phương Trang","category":"BX Nha Trang ⇒ BX Mien Dong","variant":"Giường","position":38,"price":215000},{"id":"27-03-2018-All-Nha Trang ⇒ Da Lat","name":"All-Nha Trang ⇒ Da Lat","list":"Lich trinh","brand":"Phương Trang","category":"Nha Trang ⇒ Da Lat","variant":"Ghế","position":39,"price":125000},{"id":"27-03-2018-All-Nha Trang ⇒ Da Nang","name":"All-Nha Trang ⇒ Da Nang","list":"Lich trinh","brand":"Phương Trang","category":"Nha Trang ⇒ Da Nang","variant":"Giường","position":40,"price":225000},{"id":"27-03-2018-All-BXB Phan Thiet ⇒ BX Mien Dong","name":"All-BXB Phan Thiet ⇒ BX Mien Dong","list":"Lich trinh","brand":"Phương Trang","category":"BXB Phan Thiet ⇒ BX Mien Dong","variant":"Giường","position":41,"price":130000},{"id":"27-03-2018-All-Ca Mau ⇒ Can Tho","name":"All-Ca Mau ⇒ Can Tho","list":"Lich trinh","brand":"Phương Trang","category":"Ca Mau ⇒ Can Tho","variant":"Ghế","position":42,"price":120000},{"id":"27-03-2018-All-Ca Mau ⇒ Sai Gon","name":"All-Ca Mau ⇒ Sai Gon","list":"Lich trinh","brand":"Phương Trang","category":"Ca Mau ⇒ Sai Gon","variant":"Giường","position":43,"price":195000},{"id":"27-03-2018-All-Cam Ranh ⇒ BX Mien Dong","name":"All-Cam Ranh ⇒ BX Mien Dong","list":"Lich trinh","brand":"Phương Trang","category":"Cam Ranh ⇒ BX Mien Dong","variant":"Giường","position":44,"price":190000},{"id":"27-03-2018-All-Cam Ranh ⇒ Da Nang","name":"All-Cam Ranh ⇒ Da Nang","list":"Lich trinh","brand":"Phương Trang","category":"Cam Ranh ⇒ Da Nang","variant":"","position":45,"price":245000},{"id":"27-03-2018-All-Can Tho ⇒ Ca Mau","name":"All-Can Tho ⇒ Ca Mau","list":"Lich trinh","brand":"Phương Trang","category":"Can Tho ⇒ Ca Mau","variant":"Ghế","position":46,"price":120000},{"id":"27-03-2018-All-Can Tho ⇒ Chau Doc","name":"All-Can Tho ⇒ Chau Doc","list":"Lich trinh","brand":"Phương Trang","category":"Can Tho ⇒ Chau Doc","variant":"Ghế","position":47,"price":100000},{"id":"27-03-2018-All-Can Tho ⇒ Da Lat","name":"All-Can Tho ⇒ Da Lat","list":"Lich trinh","brand":"Phương Trang","category":"Can Tho ⇒ Da Lat","variant":"Giường","position":48,"price":325000},{"id":"27-03-2018-All-Can Tho ⇒ Rach Gia","name":"All-Can Tho ⇒ Rach Gia","list":"Lich trinh","brand":"Phương Trang","category":"Can Tho ⇒ Rach Gia","variant":"Ghế","position":49,"price":110000},{"id":"27-03-2018-All-Can Tho ⇒ Sai Gon","name":"All-Can Tho ⇒ Sai Gon","list":"Lich trinh","brand":"Phương Trang","category":"Can Tho ⇒ Sai Gon","variant":"Ghế","position":50,"price":110000},{"id":"27-03-2018-All-Chau Doc ⇒ Can Tho","name":"All-Chau Doc ⇒ Can Tho","list":"Lich trinh","brand":"Phương Trang","category":"Chau Doc ⇒ Can Tho","variant":"Ghế","position":51,"price":100000},{"id":"27-03-2018-All-Chau Doc ⇒ Sai Gon","name":"All-Chau Doc ⇒ Sai Gon","list":"Lich trinh","brand":"Phương Trang","category":"Chau Doc ⇒ Sai Gon","variant":"Giường","position":52,"price":140000},{"id":"27-03-2018-All-Da Lat ⇒ BX An Suong","name":"All-Da Lat ⇒ BX An Suong","list":"Lich trinh","brand":"Phương Trang","category":"Da Lat ⇒ BX An Suong","variant":"Giường","position":53,"price":210000},{"id":"27-03-2018-All-Da Lat ⇒ Can Tho","name":"All-Da Lat ⇒ Can Tho","list":"Lich trinh","brand":"Phương Trang","category":"Da Lat ⇒ Can Tho","variant":"Giường","position":54,"price":325000},{"id":"27-03-2018-All-Da Lat ⇒ Da Nang","name":"All-Da Lat ⇒ Da Nang","list":"Lich trinh","brand":"Phương Trang","category":"Da Lat ⇒ Da Nang","variant":"Giường","position":55,"price":265000},{"id":"27-03-2018-All-Da Lat ⇒ Hue","name":"All-Da Lat ⇒ Hue","list":"Lich trinh","brand":"Phương Trang","category":"Da Lat ⇒ Hue","variant":"Giường","position":56,"price":330000},{"id":"27-03-2018-All-Da Lat ⇒ Nha Trang","name":"All-Da Lat ⇒ Nha Trang","list":"Lich trinh","brand":"Phương Trang","category":"Da Lat ⇒ Nha Trang","variant":"Ghế","position":57,"price":125000},{"id":"27-03-2018-All-Da Nang - Bao Loc","name":"All-Da Nang - Bao Loc","list":"Lich trinh","brand":"Phương Trang","category":"Da Nang - Bao Loc","variant":"Giường","position":58,"price":305000},{"id":"27-03-2018-All-Da nang ⇒ BX Mien Dong","name":"All-Da nang ⇒ BX Mien Dong","list":"Lich trinh","brand":"Phương Trang","category":"Da nang ⇒ BX Mien Dong","variant":"Giường","position":59,"price":360000},{"id":"27-03-2018-All-Da Nang ⇒ Cam Ranh","name":"All-Da Nang ⇒ Cam Ranh","list":"Lich trinh","brand":"Phương Trang","category":"Da Nang ⇒ Cam Ranh","variant":"","position":60,"price":245000},{"id":"27-03-2018-All-Da Nang ⇒ Da Lat","name":"All-Da Nang ⇒ Da Lat","list":"Lich trinh","brand":"Phương Trang","category":"Da Nang ⇒ Da Lat","variant":"Giường","position":61,"price":265000},{"id":"27-03-2018-All-Da Nang ⇒ Ha Noi","name":"All-Da Nang ⇒ Ha Noi","list":"Lich trinh","brand":"Phương Trang","category":"Da Nang ⇒ Ha Noi","variant":"Giường","position":62,"price":340000},{"id":"27-03-2018-All-Da Nang ⇒ Nha Trang","name":"All-Da Nang ⇒ Nha Trang","list":"Lich trinh","brand":"Phương Trang","category":"Da Nang ⇒ Nha Trang","variant":"Giường","position":63,"price":225000},{"id":"27-03-2018-All-Dak Nong ⇒ BX Mien Dong","name":"All-Dak Nong ⇒ BX Mien Dong","list":"Lich trinh","brand":"Phương Trang","category":"Dak Nong ⇒ BX Mien Dong","variant":"Giường","position":64,"price":140000},{"id":"27-03-2018-All-Ha Noi ⇒ Da Nang","name":"All-Ha Noi ⇒ Da Nang","list":"Lich trinh","brand":"Phương Trang","category":"Ha Noi ⇒ Da Nang","variant":"Giường","position":65,"price":340000},{"id":"27-03-2018-All-Ha Noi ⇒ Nam Dinh","name":"All-Ha Noi ⇒ Nam Dinh","list":"Lich trinh","brand":"Phương Trang","category":"Ha Noi ⇒ Nam Dinh","variant":"Ghế","position":66,"price":70000},{"id":"27-03-2018-All-Ha Tien ⇒  Rach Gia","name":"All-Ha Tien ⇒  Rach Gia","list":"Lich trinh","brand":"Phương Trang","category":"Ha Tien ⇒  Rach Gia","variant":"Ghế","position":67,"price":70000},{"id":"27-03-2018-All-Ha Tien ⇒ Sai Gon","name":"All-Ha Tien ⇒ Sai Gon","list":"Lich trinh","brand":"Phương Trang","category":"Ha Tien ⇒ Sai Gon","variant":"Giường","position":68,"price":175000},{"id":"27-03-2018-All-Hong Ngu ⇒ Sai Gon","name":"All-Hong Ngu ⇒ Sai Gon","list":"Lich trinh","brand":"Phương Trang","category":"Hong Ngu ⇒ Sai Gon","variant":"Giường","position":69,"price":115000},{"id":"27-03-2018-All-Hue ⇒ Bao Loc","name":"All-Hue ⇒ Bao Loc","list":"Lich trinh","brand":"Phương Trang","category":"Hue ⇒ Bao Loc","variant":"Giường","position":70,"price":370000},{"id":"27-03-2018-All-Hue ⇒ BX Mien Dong","name":"All-Hue ⇒ BX Mien Dong","list":"Lich trinh","brand":"Phương Trang","category":"Hue ⇒ BX Mien Dong","variant":"Giường","position":71,"price":360000},{"id":"27-03-2018-All-Hue ⇒ Da Lat","name":"All-Hue ⇒ Da Lat","list":"Lich trinh","brand":"Phương Trang","category":"Hue ⇒ Da Lat","variant":"","position":72,"price":330000},{"id":"27-03-2018-All-Long Phu ⇒ Dai Ngai ⇒ Sai Gon","name":"All-Long Phu ⇒ Dai Ngai ⇒ Sai Gon","list":"Lich trinh","brand":"Phương Trang","category":"Long Phu ⇒ Dai Ngai ⇒ Sai Gon","variant":"Giường","position":73,"price":140000},{"id":"27-03-2018-All-Long Xuyen ⇒ Sai Gon","name":"All-Long Xuyen ⇒ Sai Gon","list":"Lich trinh","brand":"Phương Trang","category":"Long Xuyen ⇒ Sai Gon","variant":"Ghế","position":74,"price":125000},{"id":"27-03-2018-All-Mui Ne ⇒ Sai Gon","name":"All-Mui Ne ⇒ Sai Gon","list":"Lich trinh","brand":"Phương Trang","category":"Mui Ne ⇒ Sai Gon","variant":"Giường","position":75,"price":130000},{"id":"27-03-2018-All-Nam Can ⇒  Sai Gon","name":"All-Nam Can ⇒  Sai Gon","list":"Lich trinh","brand":"Phương Trang","category":"Nam Can ⇒  Sai Gon","variant":"Giường","position":76,"price":200000},{"id":"27-03-2018-All-Nam Dinh ⇒ Ha Noi","name":"All-Nam Dinh ⇒ Ha Noi","list":"Lich trinh","brand":"Phương Trang","category":"Nam Dinh ⇒ Ha Noi","variant":"Ghế","position":77,"price":70000},{"id":"27-03-2018-All-Ninh Hoa ⇒ BX Mien Dong","name":"All-Ninh Hoa ⇒ BX Mien Dong","list":"Lich trinh","brand":"Phương Trang","category":"Ninh Hoa ⇒ BX Mien Dong","variant":"Giường","position":78,"price":215000},{"id":"27-03-2018-All-O Mon ⇒  Sai Gon","name":"All-O Mon ⇒  Sai Gon","list":"Lich trinh","brand":"Phương Trang","category":"O Mon ⇒  Sai Gon","variant":"Giường/Ghế","position":79,"price":115000},{"id":"27-03-2018-All-Quang Ngai ⇒ BX Mien Dong","name":"All-Quang Ngai ⇒ BX Mien Dong","list":"Lich trinh","brand":"Phương Trang","category":"Quang Ngai ⇒ BX Mien Dong","variant":"Giường","position":80,"price":300000},{"id":"27-03-2018-All-Qui Nhon ⇒ BX Mien Dong","name":"All-Qui Nhon ⇒ BX Mien Dong","list":"Lich trinh","brand":"Phương Trang","category":"Qui Nhon ⇒ BX Mien Dong","variant":"Giường","position":81,"price":250000},{"id":"27-03-2018-All-Rach Gia ⇒ Can Tho","name":"All-Rach Gia ⇒ Can Tho","list":"Lich trinh","brand":"Phương Trang","category":"Rach Gia ⇒ Can Tho","variant":"Ghế","position":82,"price":110000},{"id":"27-03-2018-All-Rach Gia ⇒ Ha Tien","name":"All-Rach Gia ⇒ Ha Tien","list":"Lich trinh","brand":"Phương Trang","category":"Rach Gia ⇒ Ha Tien","variant":"Ghế","position":83,"price":70000},{"id":"27-03-2018-All-Rach Gia ⇒ Sai Gon","name":"All-Rach Gia ⇒ Sai Gon","list":"Lich trinh","brand":"Phương Trang","category":"Rach Gia ⇒ Sai Gon","variant":"Giường","position":84,"price":150000},{"id":"27-03-2018-All-Sa Dec ⇒ Sai Gon","name":"All-Sa Dec ⇒ Sai Gon","list":"Lich trinh","brand":"Phương Trang","category":"Sa Dec ⇒ Sai Gon","variant":"Ghế","position":85,"price":95000},{"id":"27-03-2018-All-Soc Trang ⇒ Sai Gon","name":"All-Soc Trang ⇒ Sai Gon","list":"Lich trinh","brand":"Phương Trang","category":"Soc Trang ⇒ Sai Gon","variant":"Giường","position":86,"price":130000},{"id":"27-03-2018-All-Tra Vinh ⇒ Sai Gon","name":"All-Tra Vinh ⇒ Sai Gon","list":"Lich trinh","brand":"Phương Trang","category":"Tra Vinh ⇒ Sai Gon","variant":"Giường","position":87,"price":100000},{"id":"27-03-2018-All-Tuy Hoa ⇒  BX Mien Dong","name":"All-Tuy Hoa ⇒  BX Mien Dong","list":"Lich trinh","brand":"Phương Trang","category":"Tuy Hoa ⇒  BX Mien Dong","variant":"Giường","position":88,"price":230000},{"id":"27-03-2018-All-Vi Thanh ⇒ Sai Gon","name":"All-Vi Thanh ⇒ Sai Gon","list":"Lich trinh","brand":"Phương Trang","category":"Vi Thanh ⇒ Sai Gon","variant":"Ghế","position":89,"price":135000},{"id":"27-03-2018-All-Vinh Long ⇒ Sai Gon","name":"All-Vinh Long ⇒ Sai Gon","list":"Lich trinh","brand":"Phương Trang","category":"Vinh Long ⇒ Sai Gon","variant":"Ghế","position":90,"price":105000},{"id":"27-03-2018-All-Vung Tau ⇒ BX Mien Tay","name":"All-Vung Tau ⇒ BX Mien Tay","list":"Lich trinh","brand":"Phương Trang","category":"Vung Tau ⇒ BX Mien Tay","variant":"Ghế","position":91,"price":95000}]
+                }
+        }];
+    </script> -->
+    <!-- Google Tag Manager -->
+    <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-W4H6W2"
+                height="0" width="0" style="display: none; visibility: hidden"></iframe>
+    </noscript>
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start':
+                    new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-W4H6W2');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <img src="/Content/image/button-19006067-03.png" class="hotlinebutton-fixed" alt="hotline futabus" />
+
+    <div id="br-cover-content">
+
+
+
+
+
+
+
+        <section id="body-content">
+
+            <div class="container">
+
+                <div class="more-about-route" data-id="#Star-da-lat">
+                    <div class="col-md-12 startpoint-block">
+                        <div class="startpoint-text">
+                            <p style="font-size: 25px;padding-left: 30px;background: url(/Content/img/private/icon-bus.png) no-repeat top 4px left;"><strong>KHỞI HÀNH TỪ:</strong> <span>Đà Lạt</span></p>
+                            <p style="font-size: 22px;padding-left: 30px;background: url(/Content/img/private/icon-phone-big.png) no-repeat top 4px left;"><strong>HOTLINE:</strong> <strong class="text-success">02633 58 58 58</strong></p>
+                        </div>
+                    </div>
+                    <div class="br-download-v2 col-md-3">
+                        <div class="describe-part">
+                            <img src="/Content/img/private/webfutabusline-02.png" width="100%" style="margin-bottom:10px;">
+                            <p>
+                                *** Quý hành khách có thể đặt vé qua tổng đài phục vụ <strong>24/24</strong> của chúng tôi
+                                (kể cả thứ 7 và Chủ Nhật): <strong>1900 8198</strong> hoặc mua vé tiện lợi ngay trên chiếc
+                                điện thoại thông minh của quý vị thông qua <strong>app PONO Bus</strong> trên cả hai hệ điều
+                                hành phổ biến nhất hiện nay là IOS và Android
+                            </p>
+                        </div>
+                        <div class="col-ms-12 hotline-part">
+                            <h3>Tổng đài đặt vé và<br> chăm sóc khách hàng</h3>
+                            <span>1900 8198<sub><img src="/Content/img/private/img247-10.png"></sub></span>
+
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="starlocation-block">
+                            <div class="row">
+                                <div class="starstation-block col-md-4">
+                                    <h4>Các tuyến xuất phát từ</h4>
+                                    <h3>Bến xe Đà Lạt</h3>
+                                    <p>01 Tô Hiến Thành, P.6, TP.Đà Lạt</p>
+                                    <p>Hotline: <strong class="text-success">0633 58 58 58</strong></p>
+                                </div>
+                                <div class="col-md-8">
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3903.680559167376!2d108.44340561324142!3d11.927304791546915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3171133f524b2889%3A0xa0e91f423e81ce70!2zQuG6v24geGUgbGnDqm4gdOG7iW5oIMSQw6AgTOG6oXQ!5e0!3m2!1sen!2sus!4v1493369917933" width="500" height="170" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+
+
+
+
+
+
+            </div>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 col-ms-12">
+
+                        <div class="section-list" id="Star-da-lat">
+                            <h3 class="text-uppercase text-success">
+                                <span class="sprite ico-drive"></span> Đà Lạt <i class="fa fa-exchange"></i>
+                            </h3>
+                            <div class="table-responsive">
+                                <table class="table ">
+                                    <thead>
+                                        <tr class="text-white bg-light-green">
+                                            
+                                            <th style="text-align:center" data-toggle="true">Mã tuyến</th>
+                                            <th style="text-align:center">Bến đi</th>
+                                            <th style="text-align:center">Bến đến</th>
+                                            <th style="text-align:center" data-hide="phone">Quãng đường</th>
+                                            <th style="text-align:center" data-hide="phone">Thời gian</th>
+                                            <th data-hide="phone">Giá vé</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in Model)
+                                        {
+                                            if (String.Compare(@item.BENDI, "Đà Lạt") == 0)
+                                            {
+                                                <tr class="route-row1342">
+                                                   
+                                                    <td style="text-align:center"> @item.MS_TUYEN</td>
+                                                    <td style="text-align:center">@item.BENDI</td>
+                                                    <td style="text-align:center">@item.BENDEN</td>
+                                                    <td style="text-align:center">@item.QUANGDUONG</td>
+                                                    <td style="text-align:center">
+
+                                                        @item.THOIGIAN
+                                                    </td>
+
+                                                    <td>
+                                                        <p>
+                                                            <strong class="text-primary">
+                                                                @item.GIAVE<sup>đ/vé</sup>
+                                                            </strong>
+                                                        </p>
+                                                    </td>
+
+                                                    <td>
+                                                        <a href='@Url.Action("GetLoTrinh", "LoTrinh", new { mT = item.MS_TUYEN })' class="btn br-btn-default btn-flat futa-book-ticket">
+                                                            <i class="fa fa-ticket icon-flat text-primary icon-bg-default"></i>Mua vé
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                            }
+                                        }
+                                    </tbody>
+
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+    </div>
+    <!-- add slidebar menu -->
+
+
+   
+
+
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+
+
+    <!--  // ////////back to top///////////////////////
+    -->
+    <script>
+// kéo xuống khoảng cách 500px thì xuất hiện nút Top-up
+var offset = 500;
+// thời gian di trượt 0.75s ( 1000 = 1s )
+var duration = 750;
+$(function(){
+$(window).scroll(function () {
+if ($(this).scrollTop() > offset)
+$('#top-up').fadeIn(duration);else
+$('#top-up').fadeOut(duration);
+});
+$('#top-up').click(function () {
+$('body,html').animate({scrollTop: 0}, duration);
+});
+});
+    </script>
+
+
+
+
+</body>
+</html>

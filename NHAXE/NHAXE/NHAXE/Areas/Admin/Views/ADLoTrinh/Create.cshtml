@@ -1,0 +1,91 @@
+﻿@model Models.Framework.LO_TRINH
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+@section header{
+    Thêm Lộ Trình
+}
+<head>
+
+    <link href="~/Areas/Admin/assets/css/datepicker.css" rel="stylesheet" />
+    <script src="~/Areas/Admin/assets/js/bootstrap-datepicker.js"></script>
+    <link rel="stylesheet" href="/Content/css/SalsaCalendar.min.css">
+</head>
+@using (Html.BeginForm()) 
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div class="form-group">
+            <label class="col-xs-3 control-label">Mã Tuyến:</label>
+            <div class="col-xs-5 selectContainer">
+                @Html.DropDownListFor(model => model.MS_TUYEN,null, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.MS_TUYEN, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-xs-3 control-label">Bảng số xe</label>
+            <div class="col-xs-5 selectContainer">
+                @Html.DropDownListFor(model => model.BSXE,null, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.BSXE, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-xs-3 control-label">Ngày đi:</label>
+            <div class="col-xs-3 selectContainer">
+                @*@Html.TextBoxFor(model => model.NGAYDI, new { htmlAttributes = new { @class = "form-control datepicker" } })*@
+                @Html.TextBoxFor(model => model.NGAYDI, htmlAttributes:new { 
+                @class = "salsa-calendar-input form-control dDate date-readonly", @id = "checkin",
+               @autocomplete = "off", @name = "arrival"
+           })
+                @Html.ValidationMessageFor(model => model.NGAYDI, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-xs-3 control-label">Giờ chạy:</label>
+            <div class="col-xs-5 selectContainer">
+                @Html.DropDownList("GIO", new List<SelectListItem>
+           {
+               new SelectListItem {Text = "8:00" ,Value ="8:00" },
+               new SelectListItem {Text = "12:00" ,Value ="12:00" },
+               new SelectListItem {Text = "20:00" ,Value ="20:00" },
+           }, new {id = "GIO",@class = "controldropdownlist"})
+                @Html.ValidationMessageFor(model => model.GIO, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+       
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10 btnm">
+                <input type="submit" value="Thêm" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Quay lại", "Index")
+</div>
+<script type="text/javascript" src="/Content/js/SalsaCalendar.min.js"></script>
+<script>
+         var calendar_from = new SalsaCalendar({
+    inputId: 'checkin',
+    lang: 'en',
+    range: {
+      min: 'today'
+    },
+    calendarPosition: 'right',
+    fixed: false,
+    connectCalendar: true
+
+  });
+</script>

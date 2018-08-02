@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="ViewAll_TK">
+        <s:complexType />
+      </s:element>
+      <s:element name="ViewAll_TKResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ViewAll_TKResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RutTien_TK">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sotk" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sotien" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="RutTien_TKResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="RutTien_TKResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GuiTien_TK">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sotk" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sotien" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GuiTien_TKResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GuiTien_TKResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ViewOne_TK">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sotk" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ViewOne_TKResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ViewOne_TKResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Ktra_TK">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sotk" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Ktra_TKResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Ktra_TKResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_TK">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sotk" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tentk" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sotien" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Insert_TKResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Insert_TKResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_TK">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sotk" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="tentk" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="sotien" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Update_TKResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Update_TKResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_TK">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sotk" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Delete_TKResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="Delete_TKResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ViewAll_TKSoapIn">
+    <wsdl:part name="parameters" element="tns:ViewAll_TK" />
+  </wsdl:message>
+  <wsdl:message name="ViewAll_TKSoapOut">
+    <wsdl:part name="parameters" element="tns:ViewAll_TKResponse" />
+  </wsdl:message>
+  <wsdl:message name="RutTien_TKSoapIn">
+    <wsdl:part name="parameters" element="tns:RutTien_TK" />
+  </wsdl:message>
+  <wsdl:message name="RutTien_TKSoapOut">
+    <wsdl:part name="parameters" element="tns:RutTien_TKResponse" />
+  </wsdl:message>
+  <wsdl:message name="GuiTien_TKSoapIn">
+    <wsdl:part name="parameters" element="tns:GuiTien_TK" />
+  </wsdl:message>
+  <wsdl:message name="GuiTien_TKSoapOut">
+    <wsdl:part name="parameters" element="tns:GuiTien_TKResponse" />
+  </wsdl:message>
+  <wsdl:message name="ViewOne_TKSoapIn">
+    <wsdl:part name="parameters" element="tns:ViewOne_TK" />
+  </wsdl:message>
+  <wsdl:message name="ViewOne_TKSoapOut">
+    <wsdl:part name="parameters" element="tns:ViewOne_TKResponse" />
+  </wsdl:message>
+  <wsdl:message name="Ktra_TKSoapIn">
+    <wsdl:part name="parameters" element="tns:Ktra_TK" />
+  </wsdl:message>
+  <wsdl:message name="Ktra_TKSoapOut">
+    <wsdl:part name="parameters" element="tns:Ktra_TKResponse" />
+  </wsdl:message>
+  <wsdl:message name="Insert_TKSoapIn">
+    <wsdl:part name="parameters" element="tns:Insert_TK" />
+  </wsdl:message>
+  <wsdl:message name="Insert_TKSoapOut">
+    <wsdl:part name="parameters" element="tns:Insert_TKResponse" />
+  </wsdl:message>
+  <wsdl:message name="Update_TKSoapIn">
+    <wsdl:part name="parameters" element="tns:Update_TK" />
+  </wsdl:message>
+  <wsdl:message name="Update_TKSoapOut">
+    <wsdl:part name="parameters" element="tns:Update_TKResponse" />
+  </wsdl:message>
+  <wsdl:message name="Delete_TKSoapIn">
+    <wsdl:part name="parameters" element="tns:Delete_TK" />
+  </wsdl:message>
+  <wsdl:message name="Delete_TKSoapOut">
+    <wsdl:part name="parameters" element="tns:Delete_TKResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebServiceSoap">
+    <wsdl:operation name="ViewAll_TK">
+      <wsdl:input message="tns:ViewAll_TKSoapIn" />
+      <wsdl:output message="tns:ViewAll_TKSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="RutTien_TK">
+      <wsdl:input message="tns:RutTien_TKSoapIn" />
+      <wsdl:output message="tns:RutTien_TKSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GuiTien_TK">
+      <wsdl:input message="tns:GuiTien_TKSoapIn" />
+      <wsdl:output message="tns:GuiTien_TKSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ViewOne_TK">
+      <wsdl:input message="tns:ViewOne_TKSoapIn" />
+      <wsdl:output message="tns:ViewOne_TKSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Ktra_TK">
+      <wsdl:input message="tns:Ktra_TKSoapIn" />
+      <wsdl:output message="tns:Ktra_TKSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Insert_TK">
+      <wsdl:input message="tns:Insert_TKSoapIn" />
+      <wsdl:output message="tns:Insert_TKSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Update_TK">
+      <wsdl:input message="tns:Update_TKSoapIn" />
+      <wsdl:output message="tns:Update_TKSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Delete_TK">
+      <wsdl:input message="tns:Delete_TKSoapIn" />
+      <wsdl:output message="tns:Delete_TKSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebServiceSoap" type="tns:WebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ViewAll_TK">
+      <soap:operation soapAction="http://tempuri.org/ViewAll_TK" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RutTien_TK">
+      <soap:operation soapAction="http://tempuri.org/RutTien_TK" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuiTien_TK">
+      <soap:operation soapAction="http://tempuri.org/GuiTien_TK" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViewOne_TK">
+      <soap:operation soapAction="http://tempuri.org/ViewOne_TK" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Ktra_TK">
+      <soap:operation soapAction="http://tempuri.org/Ktra_TK" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_TK">
+      <soap:operation soapAction="http://tempuri.org/Insert_TK" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_TK">
+      <soap:operation soapAction="http://tempuri.org/Update_TK" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_TK">
+      <soap:operation soapAction="http://tempuri.org/Delete_TK" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebServiceSoap12" type="tns:WebServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ViewAll_TK">
+      <soap12:operation soapAction="http://tempuri.org/ViewAll_TK" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="RutTien_TK">
+      <soap12:operation soapAction="http://tempuri.org/RutTien_TK" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuiTien_TK">
+      <soap12:operation soapAction="http://tempuri.org/GuiTien_TK" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ViewOne_TK">
+      <soap12:operation soapAction="http://tempuri.org/ViewOne_TK" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Ktra_TK">
+      <soap12:operation soapAction="http://tempuri.org/Ktra_TK" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Insert_TK">
+      <soap12:operation soapAction="http://tempuri.org/Insert_TK" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Update_TK">
+      <soap12:operation soapAction="http://tempuri.org/Update_TK" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Delete_TK">
+      <soap12:operation soapAction="http://tempuri.org/Delete_TK" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebService">
+    <wsdl:port name="WebServiceSoap" binding="tns:WebServiceSoap">
+      <soap:address location="http://ponobusline2812.somee.com/WebService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebServiceSoap12" binding="tns:WebServiceSoap12">
+      <soap12:address location="http://ponobusline2812.somee.com/WebService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,113 @@
+﻿@model List<Models.Framework.DON_HANG>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no" />
+
+    <title>Giá vé PONO| Mua vé</title>
+    <link href="~/Content/css/style.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/rmodal@1.0.26/dist/rmodal.js"></script>
+<script type="text/javascript" src="~/Areas/Admin/assets/scripts/rmodal.js"></script>
+
+
+
+
+</head>
+<body style="background: #fff;">
+
+
+
+    <h2 class="text-center text-primary">Giỏ Hàng</h2>
+    <div class="container">
+        <table id="cart" class="table table-hover table-condensed" style="margin-top: 30px;">
+            <thead style="background: #eee">
+                <tr>
+                    <th style="width:10%">Mã Hóa Đơn</th>
+                    <th style="width:10%">Lộ trình</th>
+                    <th style="width:10%">Giá</th>
+                    <th style="width:10%">Số lượng vé</th>
+                    <th style="width:20%" class="text-center">Thành tiền</th>
+                    <th style="width:20%">Trạng Thái</th>
+                    <th style="width:20%"> </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var i in Model)
+                {
+                <tr id="row_@i.MA_DH">
+                    <td data-th="Product">
+                        <div class="row">
+                            
+                            <div class="col-sm-9">
+                                <h4 class="nomargin">@i.MA_DH</h4>
+
+                            </div>
+                        </div>
+                    </td>
+                    <td data-th="Price">@i.MA_LT</td>
+                    @{ var gia = @i.TONG / @i.SOLUONGVE; }
+                    <td data-th="Price">@gia</td>
+                    <td data-th="Subtotal" class="text-center"> @i.SOLUONGVE </td>
+                    <td data-th="Subtotal" class="text-center">@i.TONG</td>
+                    <td>
+                        
+                        @((i.TRANG_THAI == 0) ? "Chua thanh toan" : (i.TRANG_THAI == 1) ? "Da thanh toan" : "Đang chờ duyệt" )
+                    </td> 
+                    
+                    <td class="actions" data-th="">
+                        
+                       @*<button class="btn btn-danger btn-sm">
+                            <i class="fas fa-trash"></i>
+                        @Ajax.ActionLink("Xoa", "Delete", new { @MaDH = i.MA_DH }, new AjaxOptions
+                   {
+                       Confirm = "Bạn có muốn xóa đơn hàng này",
+                       //OnComplete = "checkDelete(" + i.TRANG_THAI + ", '#row_" + @i.MA_DH + "')",
+                       OnComplete ="$('#row_" +i.MA_DH +"').remove()",
+                       HttpMethod = "Delete"
+                   })
+                        </button>*@
+                        <a href='@Url.Action("ThanhToan", "HoaDon", new { madh = @i.MA_DH })' class="btn btn-success">Thanh toán <i class="fa fa-angle-right"></i></a>
+                    </td>
+                </tr>
+                }
+            </tbody>
+            
+        </table>
+    </div>
+    <br/>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+</body>
+
+
+
+
+</html>
+<script language="javascript">
+
+    function checkDelete(dh, element) {
+        if (dh > 0) {
+            alert('Xóa thất bại!');
+        } else {
+            alert('Xóa thành công');
+        }
+        $(element).remove();
+    }
+</script>

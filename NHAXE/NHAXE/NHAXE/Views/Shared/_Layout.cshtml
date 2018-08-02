@@ -1,0 +1,285 @@
+﻿@using NHAXE.Code
+@using NHAXE.Models
+@using Models
+
+<!DOCTYPE html>
+<html lang="en">
+
+<body style="background: #fff;">
+
+    <link rel="stylesheet" id="theme-style-css" href="Content/css/style.min.css" type="text/css" media="all" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+
+
+
+    <link async href="/Content/css/fontawesome-stars.css" rel="stylesheet" />
+
+    <link href="/Content/plugins/sidebar/slidebars.css" rel="stylesheet" />
+
+
+    <link rel="stylesheet" href="/Content/plugins/flexslider/flexslider.min.css" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="/Content/css/SalsaCalendar.min.css">
+
+
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap-select/css/bootstrap-select.min.css" />
+
+    <link href="/Content/css/animate.css" rel="stylesheet" />
+
+    <link href="/Content/css/custom.min.css?v=2311" rel="stylesheet" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="/Content/css/style.css">
+
+    <img src="/Content/image/button-19006067-03.png" class="hotlinebutton-fixed" alt="hotline pono" />
+    <div id="br-cover-content">
+
+
+        <div id="top-nav" class="hidden-xs">
+            <div class="container">
+                <ul class="clearfix">
+                    <li class="pull-right spcart">
+                        <i class="fa fa-shopping-cart"></i>
+                        @{
+                            if (ViewBag.User != null)
+                            {
+
+                                @Html.ActionLink(".", "Index", "HoaDon");
+
+
+                            }
+
+                        }
+                    </li>
+
+
+
+                    <li class="pull-right diff">
+                        <a href="#">
+                            <img src="/Content/image/VN.png" alt="Việt Nam">
+                            Việt Nam
+                        </a>
+                    </li>
+                    <li class="pull-right">
+                        <a target="_blank" href="https://goo.gl/AvncWZ">
+                            <i class="fa fa-facebook-square"></i>&ensp;Fanpage
+                        </a>
+                    </li>
+                    <li class="pull-right">
+                        @{
+                            if (ViewBag.User != null)
+                            {
+                                @Html.ActionLink("Đăng Xuất", "LogOut", "Login");
+
+
+
+                            }
+                            else
+                            {
+                                <a href="/KhachHang/Create">Đăng Ký</a>
+                            }
+                        }
+                    </li>
+
+
+                    <li class="pull-right">
+                        @{
+                            if (ViewBag.User != null)
+                            {
+                                <a href="/KhachHang/Edit">Xin chào : @ViewBag.User</a>
+
+                            }
+                            else
+                            {
+                                <a href="/Login/Index">Đăng Nhập</a>
+                            }
+                        }
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="br-header">
+            <nav>
+                <div class="container">
+                    <div class="pull-left">
+                        <a href="/Home/Index" class="">
+                            <img id="logo" src="/Content/image/logo-pono.png" alt="">
+                        </a>
+                    </div>
+
+                    <ul class="pull-right hidden-xs">
+                        <li><a href="/TuyenDuong/Index">Lịch trình</a></li>
+                        <li><a href="/Home/HDDV" class="text-default">Hướng dẫn đặt vé</a></li>
+                        <li>
+                            @{
+                                if (ViewBag.User != null)
+                                {
+                                    @Html.ActionLink("Thông Tin Khách Hàng", "ThongTinKhachHang", "Home");
+
+
+
+                                }
+
+                            }
+                        </li>
+
+
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        @RenderBody()
+
+        <footer>
+            <div title="Về đầu trang" id="top-up">
+                <i class="fa fa-caret-square-o-up"></i>
+            </div>
+            <link rel="stylesheet" id="theme-style-css" href="/Content/css/style.min.css" type="text/css" media="all" />
+            <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+
+
+
+
+
+            <link async href="/Content/css/fontawesome-stars.css" rel="stylesheet" />
+
+            <link href="/Content/plugins/sidebar/slidebars.css" rel="stylesheet" />
+
+
+            <link rel="stylesheet" href="/Content/plugins/flexslider/flexslider.min.css" type="text/css" media="all" />
+
+            <link rel="stylesheet" href="/Content/plugins/sliderTabs/styles/jquery.sliderTabs.min.css">
+
+            <link rel="stylesheet" href="/Content/css/SalsaCalendar.min.css">
+
+
+            <link rel="stylesheet" type="text/css" href="bower_components/bootstrap-select/css/bootstrap-select.min.css" />
+
+            <link rel="stylesheet" type="text/css" href="/Content/js/bootstrap-datepicker/css/datepicker.css" />
+
+            <link href="/Content/css/animate.css" rel="stylesheet" />
+
+            <link href="/Content/css/custom.min.css?v=2311" rel="stylesheet" type="text/css" media="all" />
+
+            <link rel="stylesheet" href="/Content/css/style.css">
+            <div id="footer-body">
+                <div class="f-body-wrap container">
+
+                    @*<nav id="nav-f">
+                        <ul>
+                            <li><a href="/TuyenDuong/Index">Lịch trình</a></li>
+                            <li><a href="">Về chúng tôi</a></li>
+                            <li><a href="">Điều khoản sử dụng</a></li>
+
+                            <li><a href="">Tin tức</a></li>
+                            <li><a href="">Tuyển dụng</a></li>
+                            <li><a href="">Hỏi &amp; Đáp</a></li>
+                        </ul>
+                    </nav>*@
+
+                    <div id="f-info" class="row">
+                        <div id="social" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-ms-20">
+                            <ul>
+                                <li>Kết nối chúng tôi</li>
+                                <li>
+                                    <a target="_blank" href="https://goo.gl/AvncWZ">
+                                        <i class="fa fa-facebook-square"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a target="_blank" href="https://goo.gl/mfeuhp">
+                                        <i class="fa fa-google-plus-square"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div id="info" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-ms-12">
+                            <div id="info-c">
+                                <p>CÔNG TY CP XE KHÁCH PONO BUS LINES</p>
+                                <p>Địa chỉ: 97 Man Thiện, Hiệp Phú, Q9, TP Hồ Chí Minh.</p>
+                                <p>Điện thoại: 08 3838 6852 - Fax: 08 3838 6853</p>
+                                <p>Website: ponobus.vn - Email: lienhe@ponobus.vn </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="f-copy">
+                        <p>&copy; BẢN QUYỀN THUỘC VỀ CÔNG TY CP PONO BUS LINES</p>
+                        <p>Tất cả bản quyền đã được bảo hộ</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+        <script type="text/javascript" src="Content/js/SalsaCalendar.min.js"></script>
+
+
+        <script>
+            $('div').click(function () {
+                $(this).toggleClass('selected');
+
+            });
+        </script>
+
+        <script>
+            // kéo xuống khoảng cách 500px thì xuất hiện nút Top-up
+            var offset = 300;
+            // thời gian di trượt 0.75s ( 1000 = 1s )
+            var duration = 750;
+            $(function () {
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > offset)
+                        $('#top-up').fadeIn(duration); else
+                        $('#top-up').fadeOut(duration);
+                });
+                $('#top-up').click(function () {
+                    $('body,html').animate({ scrollTop: 0 }, duration);
+                });
+            });
+        </script>
+        <script>
+            $(document).ready(function () {
+                $('.btn-ghe').on('click', function () {
+                    alert(11);
+
+                    var value = $(this).val();
+                    if (value == 1) {
+                        $(this).val(0);
+                        $(this).css('background', '#ddd');
+                        alert(11);
+                    } else {
+                        $(this).val(1);
+                        $(this).css('background', '#ef5222');
+                    }
+
+                })
+
+            })
+
+        </script>
+</body>
+
+
+
+</html>

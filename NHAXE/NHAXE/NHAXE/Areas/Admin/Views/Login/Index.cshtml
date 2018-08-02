@@ -1,0 +1,273 @@
+﻿
+@{
+    Layout = null;
+}
+
+
+@{
+    Layout = null;
+}
+@model NHAXE.Models.LoginModel
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+    <meta property="fb:admins" content="1373014969" />
+    <meta property="fb:app_id" content="1677748725772019" />
+    <title>Đăng nhập | PONOBus ID</title>
+
+
+    <link rel="stylesheet" id="theme-style-css" href="/Content/css/style.min.css" type="text/css" media="all" />
+    <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+
+
+
+
+
+    <link async href="/Content/css/fontawesome-stars.css" rel="stylesheet" />
+
+    <link href="/Content/plugins/sidebar/slidebars.css" rel="stylesheet" />
+
+
+    <link rel="stylesheet" href="/Content/plugins/flexslider/flexslider.min.css" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="/Content/plugins/sliderTabs/styles/jquery.sliderTabs.min.css">
+
+    <link rel="stylesheet" href="/Content/css/SalsaCalendar.min.css">
+
+
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap-select/css/bootstrap-select.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="/Content/js/bootstrap-datepicker/css/datepicker.css" />
+
+    <link href="/Content/css/animate.css" rel="stylesheet" />
+
+    <link href="/Content/css/custom.min.css?v=2311" rel="stylesheet" type="text/css" media="all" />
+
+    <link rel="stylesheet" href="/Content/css/style.css">
+
+
+
+</head>
+<body style="background: #fff;">
+    <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
+    <!-- Google Tag Manager -->
+    <noscript>
+        <iframe src="ns.html-id=GTM-W69S4S" tppabs="https://www.googletagmanager.com/ns.html?id=GTM-W69S4S"
+                height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'/*tpa=https://id.futabus.vn/User/gtm.js*/}) ; var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-W69S4S');</script>
+    <!-- End Google Tag Manager -->
+    <!-- Google Tag Manager -->
+    <img src="/Content/image/button-19006067-03.png" class="hotlinebutton-fixed" alt="hotline pono" />
+
+    <div id="br-cover-content">
+        <div id="top-nav" class="hidden-xs">
+            <div class="container">
+                <ul class="clearfix">
+                    <li class="pull-right diff">
+                        <a href="#">
+                            <img src="/Content/image/VN.png" alt="Việt Nam">
+                            Việt Nam
+                        </a>
+                    </li>
+                    <li class="pull-right">
+                        <a target="_blank" href="https://www.facebook.com">
+                            <i class="fa fa-facebook-square"></i>&ensp;Fanpage
+                        </a>
+                    </li>
+
+                    <li class="pull-right">
+                        <a href="/Home/Register">Đăng Ký</a>
+                    </li>
+                    <li class="pull-right">
+                        <a href="/Home/Login">Đăng Nhập</a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+        <div class="br-header">
+           
+            <nav>
+                <div class="container">
+                    <div class="pull-left">
+                       
+                        <a href="index.html" class="">
+                            <img id="logo" src="/Content/image/logo-pono.png" alt="">
+                        </a>
+                    </div>
+
+                    <ul class="pull-right hidden-xs">
+                        <li><a href="Lichtrinh">Lịch trình</a></li>
+                        <li><a href="thanh-toan.html">Thanh Toán</a></li>
+                        <li><a href="Lienhe">Liên hệ</a></li>
+
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+        <div id="page">
+            <!-- header -->
+
+
+
+
+
+            <section id="body-content">
+
+
+                <div class="container" id="login-page">
+                   
+                    <div id="body-login" class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-ms-12">
+
+                            <div id="login-form-left" class="border clearfix">
+                                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-ms-12 col-lg-offset-2 col-md-offset-2">
+                                    <h3 class="text-uppercase text-center">Tôi đã đăng ký tài khoản</h3>
+                                    @using (Html.BeginForm())
+                                    {
+                                        @Html.AntiForgeryToken()
+                                        @Html.ValidationSummary(true,null,new { @class = "alert - alert dannger " })
+                                 
+                                        <div class="form-group">
+                                            <div class="form-group">
+                                                
+                                            <label for="">Tên đăng nhập*</label>
+                                                @Html.TextBoxFor(model => model.UserName, new { @class = "form-control", @placeholder = "Điền email", @type = "UserName" })
+                                            @*<input class="form-control" data-val="true" data-val-required="Vui lòng điền email hoặc sđt" id="UserName" name="UserName" placeholder="Điền email" type="email" value="" />*@
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="">Mật khẩu*</label>
+                                            @Html.TextBoxFor(model => model.Password, new { @class = "form-control", @placeholder = "Điền mật khẩu", @type = "Password" })
+                                            @*<input class="form-control" data-val="true" data-val-required="Vui lòng nhập mật khẩu" id="Password" name="Password" placeholder="Điền mật khẩu" type="password" />*@
+                                        </div>
+                                            <div class="checkbox">
+                                                <label>
+                                                    @Html.CheckBoxFor(model => model.Rememberme)
+                                                    Rememberme
+                                                </label>
+                                            </div>
+                                        <div class="form-group">
+                                            <a href="ForgetPassword.html" tppabs="https://id.futabus.vn/User/ForgetPassword">Quên mật khẩu?</a>
+                                            <button class="btn btn-primary pull-right" type="submit">
+                                                Đăng nhập
+                                            </button>
+                                        </div>
+                                        </div>
+
+                                    }
+                                    
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-ms-12">
+                            <div id="login-form-right" class="border clearfix">
+                                <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 col-ms-12 col-lg-offset-2 col-md-offset-2">
+                                    <h3 class="text-uppercase text-center">Bạn là khách hàng mới?</h3>
+                                    <p class="text-center">
+                                        <a href="Register.html" tppabs="https://id.futabus.vn/User/Register" class="btn btn-success">Đăng ký</a>
+                                    </p>
+                                    <p class="text-muted text-center">
+                                        Chỉ với 1 tài khoản PONO BUS ID, tham gia được tất cả các chương trình của PONO Bus Lines
+                                    </p>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- footer -->
+            <footer>
+
+
+                <div id="footer-body">
+                    <div class="f-body-wrap container">
+
+                        <nav id="nav-f">
+                            <ul>
+                                <li><a href="Lichtrinh">Lịch trình</a></li>
+                                <li><a href="">Về chúng tôi</a></li>
+                                <li><a href="">Điều khoản sử dụng</a></li>
+
+                                <li><a href="">Tin tức</a></li>
+                                <li><a href="">Tuyển dụng</a></li>
+                                <li><a href="">Hỏi &amp; Đáp</a></li>
+                            </ul>
+                        </nav>
+
+                        <div id="f-info" class="row">
+                            <div id="social" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-ms-20">
+                                <ul>
+                                    <li>Kết nối chúng tôi</li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fa fa-facebook-square"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fa fa-google-plus-square"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="">
+                                            <i class="fa fa-twitter-square"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div id="info" class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col-ms-12">
+                                <div id="info-c">
+                                    <p>CÔNG TY CP XE KHÁCH PONO BUS LINES</p>
+                                    <p>Địa chỉ: 97 Man Thiện, Hiệp Phú, Q9, TP Hồ Chí Minh.</p>
+                                    <p>Điện thoại: 08 3838 6852 - Fax: 08 3838 6853</p>
+                                    <p>Website: ponobus.vn - Email: lienhe@ponobus.vn </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="f-copy">
+                            <p>&copy; BẢN QUYỀN THUỘC VỀ CÔNG TY CP PONO BUS LINES</p>
+                            <p>Tất cả bản quyền đã được bảo hộ</p>
+                        </div>
+                    </div>
+                </div>
+
+            </footer>
+        </div>
+    </div>
+
+    <!-- GA -->
+
+
+
+
+
+</body>
+</html>
+
