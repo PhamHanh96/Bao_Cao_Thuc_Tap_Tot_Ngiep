@@ -34,11 +34,15 @@ namespace NHAXE.Controllers
         {
             var ipldatve = new DatVeModel();
             var model1 = ipldatve.ThongTin(THDV.LT[0].MA_LT);
-            if (THDV.soluong == 0)
+            if (THDV.soluong == 0 )
             {
-                ModelState.AddModelError("", "Bạn chưa điền vào số lượng vé"); }
-            else {
-              
+                ModelState.AddModelError("", "Bạn chưa điền số lượng vé. Mời bạn nhập lại!"); }
+            else if (THDV.soluong > model1.LT[0].GHE_TRONG)
+            {
+                ModelState.AddModelError("", "Bạn không được chọn nhiều hơn số ghế. Mời bạn nhập lại!");
+            }
+            else
+            {
                 model1.soluong = THDV.soluong;
                 model1.tongtien = THDV.soluong * model1.TD[0].GIAVE;
                 if (ModelState.IsValid)
@@ -60,7 +64,7 @@ namespace NHAXE.Controllers
                         var model = new DatVeModel();
                       
                             int res = model.ThemMoi(email, model1.LT[0].MA_LT, model1.soluong, model1.tongtien);
-                            if (res > 0)
+                            if (res > 0 )
                                 ModelState.AddModelError("", "Them Don hang thanh cong");
                             else
                             {
